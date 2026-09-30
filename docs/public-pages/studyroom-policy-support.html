@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StudyRoom privacy, support, deletion, and subscriptions</title>
+    <style>
+      :root { color-scheme: light; font-family: system-ui, sans-serif; line-height: 1.55; }
+      body { color: #172033; background: #f7f9fc; margin: 0; }
+      main { background: #fff; margin: 0 auto; max-width: 54rem; padding: 2rem 1.25rem 4rem; }
+      h1, h2 { line-height: 1.2; }
+      h1 { color: #152c5b; }
+      h2 { border-top: 1px solid #d8deea; margin-top: 2rem; padding-top: 1.5rem; }
+      .notice { background: #eef4ff; border-left: 4px solid #2f66c9; padding: 1rem; }
+      .muted { color: #4e5b70; }
+      a { color: #174ea6; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="muted">StudyRoom project owner · Last updated 25 September 2026</p>
+        <h1>Privacy, support, account deletion, and subscriptions</h1>
+        <p class="notice">
+          This repository-owned document is the canonical pre-publication source
+          for StudyRoom's factual policy and support information. Public HTTPS
+          publication is pending; this source does not claim a public URL.
+        </p>
+      </header>
+
+      <section aria-labelledby="contact">
+        <h2 id="contact">Contact and support</h2>
+        <p>
+          The accountable owner is the StudyRoom project owner. For support,
+          privacy, safety, or account-deletion questions, email
+          <a href="mailto:studyroom.support@proton.me">studyroom.support@proton.me</a>.
+          The response target is within 3 working days. This is a support target,
+          not a guaranteed emergency or crisis-response service.
+        </p>
+        <p>
+          For urgent real-world danger, contact local emergency services. In
+          StudyRoom, a signed-in participant can report a safety concern about
+          another participant from the current Waiting Room or Results flow.
+          Reports are reviewed separately and do not automatically punish anyone.
+        </p>
+      </section>
+
+      <section aria-labelledby="privacy">
+        <h2 id="privacy">What StudyRoom uses</h2>
+        <p>
+          StudyRoom uses a Supabase identity, email and authentication-session
+          data, display name, room memberships, quiz participation, answers,
+          results, timestamps, and necessary service metadata to authenticate
+          members, run invite-only rooms, calculate results, and operate the
+          service. RevenueCat and the relevant store handle purchase and
+          entitlement records used for StudyRoom Pro.
+        </p>
+        <p>
+          Solo progress, confirmed coin and streak records, and pet ownership
+          and equipment support the new self-paced study features. A learner's
+          drawing workspace stays in app memory; strokes are not sent with an
+          answer or stored by the backend.
+        </p>
+        <p>
+          StudyRoom application code does not currently collect or store
+          location, contacts, photos, chat, direct messages, or public profiles.
+          The current product does not use ads or usage-telemetry analytics.
+          It can derive the signed-in learner's own bounded practice statistics
+          on demand from retained quiz results, as described below. The app
+          does not persist an entered password. Credentials, tokens, email
+          addresses, and billing records are not returned by StudyRoom APIs or
+          shown to room members.
+        </p>
+      </section>
+
+      <section aria-labelledby="visibility">
+        <h2 id="visibility">Visibility and academic privacy</h2>
+        <p>
+          Rooms are invite-only. Current room members see the display names and
+          room or quiz state needed for multiplayer. Quiz results remain scoped
+          to the immutable participants of that quiz session; there is no public
+          performance directory or cross-room profile.
+        </p>
+      </section>
+
+      <section aria-labelledby="adaptive-practice">
+        <h2 id="adaptive-practice">Adaptive practice and your own summary</h2>
+        <p>
+          Adaptive GCSE quiz generation sends the selected subject, topic,
+          mark budget, and a bounded list of recent question prompts to OpenAI
+          to reduce repetition. Marking a written answer sends the question,
+          any source extract, hidden rubric, and that answer. These requests
+          carry no account, profile, room, or provider identifiers. StudyRoom
+          requests that responses not be stored, but this is not a guarantee
+          of zero provider retention. StudyRoom retains generated content,
+          answers, and marks under its existing deletion and retention limits.
+        </p>
+        <p>
+          While signed in, a learner may view a private summary calculated on
+          demand from their own still-retained finished adaptive GCSE sessions,
+          including previous rooms they left or that closed. It labels
+          accuracy on graded answers, shows unanswered and ungraded counts, and
+          compares only sufficiently sampled topics within a subject. It does
+          not create a separately stored analytics profile, disclose another
+          learner's answers, or reopen a room's detailed answer review. Normal
+          room-data purge or account deletion can remove source results; this
+          is not a lifetime record, numeric AQA grade or full-syllabus measure.
+        </p>
+        <p>
+          Solo educational questions, answers, and marks become eligible for
+          purge 30 days after completion, abandonment, or failure. Attempts
+          still awaiting marking are not silently expired. Minimal earned
+          reward, study-day, and pet ownership records remain until account
+          deletion; a purge can run after its eligibility date rather than at
+          the exact 30-day instant.
+        </p>
+      </section>
+
+      <section aria-labelledby="deletion">
+        <h2 id="deletion">Account deletion</h2>
+        <p>
+          A signed-in member can start deletion in <strong>Account &amp;
+          settings</strong>, confirm the exact word DELETE, and complete recent
+          authentication when requested. The authenticated StudyRoom deletion
+          contract removes or anonymises local account data, preserves only the
+          minimum tombstone and historical evidence needed for its authority,
+          and schedules linked provider cleanup. This in-app route remains the
+          primary deletion path.
+        </p>
+        <p>
+          If the app cannot be used, the monitored contact above is the external
+          deletion-request entry. Include enough information for the owner to
+          identify the request, but do not send passwords, access tokens, or
+          payment credentials by email.
+        </p>
+      </section>
+
+      <section aria-labelledby="subscriptions">
+        <h2 id="subscriptions">Subscriptions and purchases</h2>
+        <p>
+          RevenueCat and Apple or Google store systems control purchase,
+          entitlement, receipt, and billing records. Deleting a StudyRoom
+          account does <strong>not</strong> cancel an Apple or Google subscription.
+          Manage or cancel a store subscription separately through the relevant
+          store account. StudyRoom does not claim real-store availability or a
+          subscription-management URL in this pre-publication source.
+        </p>
+      </section>
+
+      <section aria-labelledby="retention">
+        <h2 id="retention">Retention and policy status</h2>
+        <p>
+          Current hosted retention and purge automation are not yet configured.
+          The release policy must match the actual hosted and provider settings
+          before publication. No retention setting, hosting region, provider
+          guarantee, or legal-compliance conclusion is claimed here.
+        </p>
+        <p>
+          StudyRoom may update this source when its factual data use, deletion,
+          support, or subscription boundaries change. Public HTTPS publication
+          remains a separate release step.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

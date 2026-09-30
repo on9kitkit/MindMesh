@@ -1,0 +1,44 @@
+{
+  "name": "studyroom-mobile",
+  "version": "1.0.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test src/accessibility/accessibilityAudit.test.ts src/appearance/studioTheme.test.ts src/appearance/studioComponents.test.tsx src/appearance/appearancePreference.test.ts src/appearance/palettePreference.test.ts src/appearance/appearanceSelector.test.tsx src/appearance/themePaletteContrast.test.ts src/auth/authFlow.test.ts src/auth/authCallback.test.ts src/auth/displayNamePolicy.test.ts src/config/support.test.ts src/config/publicPageSource.test.ts src/config/noMusicVariant.test.ts src/revenuecat/config.test.ts src/revenuecat/authLifecycle.test.ts src/revenuecat/RevenueCatController.test.ts src/api/rooms.test.ts src/api/adaptiveRooms.test.ts src/api/learningSummary.test.ts src/feedback/gradingFeedback.test.ts src/api/account.test.ts src/api/safetyReports.test.ts src/features/account/accountDeletion.test.ts src/features/safety/reportFlow.test.ts src/features/rooms/homeFlow.test.ts src/features/rooms/waitingRoomPresentation.test.ts src/features/learning/learningMath.test.ts src/features/learning/learningValidator.test.ts src/features/learning/learningComponents.test.tsx src/features/learning/learningDiagramContrast.test.ts src/api/learningCompanions.test.ts src/api/solo.test.ts src/features/learningCompanions/petPresentation.test.ts src/features/learningCompanions/PetCompanion.test.tsx src/features/learningCompanions/petGalleryPresentation.test.ts src/features/learningCompanions/PetGallery.test.tsx src/features/learningCompanions/dailyInvitationPresentation.test.ts src/features/learningCompanions/rewardPresentation.test.ts src/features/solo/soloController.test.ts src/features/solo/soloDrawingBinding.test.ts src/features/solo/soloRoute.test.tsx src/features/learningCompanions/petsRoute.test.tsx src/features/learningSummary/learningSummaryIdentity.test.ts src/features/drawing/model.test.ts src/features/drawing/lifecycle.test.ts src/features/drawing/DrawingWorkspace.test.tsx src/features/drawing/roomBinding.test.ts src/features/quiz/countdown.test.ts src/features/quiz/adaptiveQuiz.test.ts src/features/quiz/quizPresentation.test.ts src/features/quiz/resultsPresentation.test.ts src/features/quiz/reviewPresentation.test.ts src/features/quiz/authorityAudit.test.ts src/realtime/protocol.test.ts src/realtime/url.test.ts src/realtime/client.test.ts src/features/session/providerMounting.test.ts src/features/session/sessionAuthLifecycle.test.ts src/features/session/sessionState.test.ts src/features/session/sessionController.test.ts src/features/session/navigation.test.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.112.2",
+    "expo": "~57.0.25",
+    "expo-asset": "~57.0.18",
+    "expo-constants": "~57.0.19",
+    "expo-dev-client": "~57.0.19",
+    "expo-linking": "~57.0.11",
+    "expo-router": "~57.0.23",
+    "expo-secure-store": "~57.0.4",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-purchases": "10.7.0",
+    "react-native-purchases-ui": "10.7.0",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-svg": "15.15.4",
+    "react-native-url-polyfill": "^4.0.0",
+    "react-native-web": "~0.21.0",
+    "react-native-reanimated": "4.5.1",
+    "react-native-worklets": "0.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "~19.2.0",
+    "tsx": "^4.20.3",
+    "typescript": "~6.0.3",
+    "babel-preset-expo": "~57.0.13"
+  }
+}

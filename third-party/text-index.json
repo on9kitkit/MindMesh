@@ -1,0 +1,1273 @@
+{
+  "00b9d4904d850fcd9bb470d0f4853c50f169df974fab5552cf41a4ff81a524e2": [
+    "npm:fontfaceobserver@2.3.0 (LICENSE)"
+  ],
+  "04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b": [
+    "npm:commander@7.2.0 (LICENSE)",
+    "npm:commander@12.1.0 (LICENSE)",
+    "npm:commander@2.20.3 (LICENSE)"
+  ],
+  "049dff02fd6730c5960862ccca921d05541a7788ad0d76e25cc56dc9541bbf4b": [
+    "npm:@isaacs/ttlcache@1.4.1 (LICENSE)"
+  ],
+  "096ff3c9ceea6df46491b0d04e4a9dca7b4be87b1b7f0b7c08a8aea08a0ffb40": [
+    "npm:jsc-safe-url@0.2.4 (LICENSE)"
+  ],
+  "0c0fc06d178272faaf09281aff0cb014d52c56fb0d9516b964808d4cccb65c93": [
+    "npm:@expo/metro@56.0.2 (LICENSE)"
+  ],
+  "0c846399369ea76ddd7b5c44fe6d16497415fcf015f5cbb508c24bf98b81c5b1": [
+    "pypi:pycparser@3.0 (pycparser-3.0.dist-info/licenses/LICENSE)"
+  ],
+  "0cff14eaf2736ff712a34ef8d61f4144082e61387fff1ee3bef9da003d96a4ce": [
+    "npm:resolve-workspace-root@2.0.1 (LICENSE.md)"
+  ],
+  "0e5b0fe8d11e1627336bc6361de610ba8acf9a035fd73e07b5b4a0909a48371f": [
+    "npm:xcode@3.0.1 (NOTICE)"
+  ],
+  "0e80a2d229d2fd4fc7e8636142ec5d0ff0bc031f14c15b682e2ac01dfd5b5138": [
+    "npm:@radix-ui/primitive@1.1.7 (LICENSE)",
+    "npm:@radix-ui/react-compose-refs@1.1.5 (LICENSE)",
+    "npm:@radix-ui/react-context@1.2.2 (LICENSE)",
+    "npm:@radix-ui/react-direction@1.1.4 (LICENSE)",
+    "npm:@radix-ui/react-focus-guards@1.1.6 (LICENSE)",
+    "npm:@radix-ui/react-id@1.1.4 (LICENSE)",
+    "npm:@radix-ui/react-slot@1.3.3 (LICENSE)",
+    "npm:@radix-ui/react-use-callback-ref@1.1.4 (LICENSE)",
+    "npm:@radix-ui/react-use-controllable-state@1.2.6 (LICENSE)",
+    "npm:@radix-ui/react-use-effect-event@0.0.5 (LICENSE)",
+    "npm:@radix-ui/react-use-is-hydrated@0.1.3 (LICENSE)",
+    "npm:@radix-ui/react-use-layout-effect@1.1.4 (LICENSE)",
+    "npm:@radix-ui/react-collection@1.1.15 (LICENSE)",
+    "npm:@radix-ui/react-presence@1.1.10 (LICENSE)",
+    "npm:@radix-ui/react-primitive@2.1.10 (LICENSE)",
+    "npm:@radix-ui/react-roving-focus@1.1.19 (LICENSE)",
+    "npm:@radix-ui/react-tabs@1.1.21 (LICENSE)",
+    "npm:@radix-ui/react-dialog@1.1.23 (LICENSE)",
+    "npm:@radix-ui/react-dismissable-layer@1.1.19 (LICENSE)",
+    "npm:@radix-ui/react-focus-scope@1.1.16 (LICENSE)",
+    "npm:@radix-ui/react-portal@1.1.17 (LICENSE)",
+    "npm:@radix-ui/react-presence@1.1.10 (LICENSE)",
+    "npm:@radix-ui/react-primitive@2.1.10 (LICENSE)"
+  ],
+  "0f0ca96f50793990031ebc488a38f7292ff70bce8ab6a8e5eeda674abc32ccdf": [
+    "npm:supports-preserve-symlinks-flag@1.0.0 (LICENSE)"
+  ],
+  "117da2af0d4ce0fe1c8e19b5cff9dcd806adf973d328d27b11d4448c4ff24f76": [
+    "npm:@babel/code-frame@7.29.7 (LICENSE)",
+    "npm:@babel/compat-data@7.29.7 (LICENSE)",
+    "npm:@babel/core@7.29.7 (LICENSE)",
+    "npm:@babel/generator@7.29.8 (LICENSE)",
+    "npm:@babel/helper-annotate-as-pure@7.29.7 (LICENSE)",
+    "npm:@babel/helper-compilation-targets@7.29.7 (LICENSE)",
+    "npm:@babel/helper-create-class-features-plugin@7.29.7 (LICENSE)",
+    "npm:@babel/helper-create-regexp-features-plugin@7.29.7 (LICENSE)",
+    "npm:@babel/helper-globals@7.29.7 (LICENSE)",
+    "npm:@babel/helper-member-expression-to-functions@7.29.7 (LICENSE)",
+    "npm:@babel/helper-module-imports@7.29.7 (LICENSE)",
+    "npm:@babel/helper-module-transforms@7.29.7 (LICENSE)",
+    "npm:@babel/helper-optimise-call-expression@7.29.7 (LICENSE)",
+    "npm:@babel/helper-plugin-utils@7.29.7 (LICENSE)",
+    "npm:@babel/helper-remap-async-to-generator@7.29.7 (LICENSE)",
+    "npm:@babel/helper-replace-supers@7.29.7 (LICENSE)",
+    "npm:@babel/helper-skip-transparent-expression-wrappers@7.29.7 (LICENSE)",
+    "npm:@babel/helper-string-parser@7.29.7 (LICENSE)",
+    "npm:@babel/helper-validator-identifier@7.29.7 (LICENSE)",
+    "npm:@babel/helper-validator-option@7.29.7 (LICENSE)",
+    "npm:@babel/helper-wrap-function@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-proposal-decorators@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-proposal-export-default-from@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-syntax-decorators@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-syntax-dynamic-import@7.8.3 (LICENSE)",
+    "npm:@babel/plugin-syntax-export-default-from@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-syntax-flow@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-syntax-jsx@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-syntax-nullish-coalescing-operator@7.8.3 (LICENSE)",
+    "npm:@babel/plugin-syntax-optional-chaining@7.8.3 (LICENSE)",
+    "npm:@babel/plugin-syntax-typescript@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-arrow-functions@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-async-generator-functions@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-async-to-generator@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-block-scoping@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-class-properties@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-class-static-block@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-classes@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-destructuring@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-export-namespace-from@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-flow-strip-types@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-for-of@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-logical-assignment-operators@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-modules-commonjs@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-named-capturing-groups-regex@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-nullish-coalescing-operator@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-object-rest-spread@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-optional-catch-binding@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-optional-chaining@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-parameters@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-private-methods@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-private-property-in-object@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-react-display-name@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-react-jsx@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-react-jsx-development@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-react-jsx-self@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-react-jsx-source@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-react-pure-annotations@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-runtime@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-shorthand-properties@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-template-literals@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-typescript@7.29.7 (LICENSE)",
+    "npm:@babel/plugin-transform-unicode-regex@7.29.7 (LICENSE)",
+    "npm:@babel/preset-typescript@7.29.7 (LICENSE)",
+    "npm:@babel/runtime@7.29.7 (LICENSE)",
+    "npm:@babel/template@7.29.7 (LICENSE)",
+    "npm:@babel/traverse@7.29.8 (LICENSE)",
+    "npm:@babel/types@7.29.8 (LICENSE)"
+  ],
+  "11d017c3b9f1ee3f44caf7203035f0461d5b57e0db8ce1bc03a9af34fa7d3f6b": [
+    "npm:parseurl@1.3.3 (LICENSE)"
+  ],
+  "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e": [
+    "npm:csstype@3.2.3 (LICENSE)"
+  ],
+  "14275f5c8139d02054c5259d52a88ccbba662a86af18c30f071c8d082dc6004c": [
+    "npm:buffer-from@1.1.2 (LICENSE)"
+  ],
+  "144c935613e823350f7798d19da78b5e8315a79af5c2a3744fd85cd61baf07ee": [
+    "npm:mkdirp@1.0.4 (LICENSE)"
+  ],
+  "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801": [
+    "npm:ms@2.1.3 (license.md)"
+  ],
+  "16feb932ce2ba7bc7712657bb28afe409eaa4334f9f05d0e1b7a5f12bf6132f4": [
+    "npm:@expo/config@57.0.9 (LICENSE)",
+    "npm:@expo/config-plugins@57.0.9 (LICENSE)",
+    "npm:@expo/devtools@57.0.1 (LICENSE)",
+    "npm:@expo/fingerprint@0.20.13 (LICENSE)",
+    "npm:@expo/json-file@11.0.1 (LICENSE)",
+    "npm:@expo/local-build-cache-provider@57.0.8 (LICENSE)",
+    "npm:@expo/metro-config@57.0.12 (LICENSE)",
+    "npm:@expo/package-manager@1.13.1 (LICENSE)",
+    "npm:@expo/prebuild-config@57.0.16 (LICENSE)"
+  ],
+  "176b07a18c0bb3836aaeb61088fd0bf11a38f66e6f15e3fbda85faa225250d6e": [
+    "npm:pngjs@3.4.0 (LICENSE)"
+  ],
+  "19ba4296d3501ae3a71920bc9872a5c50ce94105bbf4c2a21d5172658cedd6ae": [
+    "npm:react-freeze@1.0.4 (LICENSE)"
+  ],
+  "1a526fbe8d8577f5a4b1c2821842b55b7c0e18862531c62ae4ce69c9b19b74b6": [
+    "npm:unpipe@1.0.0 (LICENSE)"
+  ],
+  "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04": [
+    "pypi:idna@3.18 (idna-3.18.dist-info/licenses/LICENSE.md)"
+  ],
+  "1bc2aa7dad15097cd71308d9ae013ff14d11a84357b170c1554f4035fb8a3acb": [
+    "npm:react-native-svg@15.15.4 (LICENSE)"
+  ],
+  "1c0d7e365e7c3dcfc1c30b6913d8a61a2741a4702b7ae727093c5610b47dbfa0": [
+    "npm:@expo/sudo-prompt@9.3.2 (LICENSE)"
+  ],
+  "1e187eec147d04bcbb3b7aef9f3b0ea82228961fa7d390d3efb9e57751dbe0cb": [
+    "npm:react-fast-compare@3.2.2 (LICENSE)"
+  ],
+  "1fa6ee8bb95a81ae3d73a5bd074a3ac380ffec13697051063ca1a601921b91db": [
+    "npm:convert-source-map@2.0.0 (LICENSE)"
+  ],
+  "2034cce3b6fafcddd642c4175e01d3ddfc332a53b9f20fdc46b1466dc89ac469": [
+    "npm:y18n@5.0.8 (LICENSE)"
+  ],
+  "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751": [
+    "npm:tslib@2.8.1 (LICENSE.txt)"
+  ],
+  "21c2679a63d7699c0e644409e2f17d0adbc7a965003feb06b3ff4b833d21f722": [
+    "npm:browserslist@4.28.7 (LICENSE)"
+  ],
+  "21edea5565f8e8d4a0e548fe741b16f7d642afd8dadafa9dbab4232115abe0ec": [
+    "npm:regjsgen@0.8.0 (LICENSE-MIT.txt)"
+  ],
+  "2213d91c606205c71eb051a199478cdc2adde945893404d7f1421436dd6d5cc1": [
+    "npm:js-tokens@4.0.0 (LICENSE)"
+  ],
+  "22a28f29cff8f5ecf9f463301d9c03b8245a2952ebae0bcab633fd654c0792fb": [
+    "npm:@expo/ui@57.0.20 (src/community/segmented-control/vendor/LICENSE)",
+    "npm:@react-native-masked-view/masked-view@0.3.2 (LICENSE)"
+  ],
+  "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f": [
+    "npm:tinyglobby@0.2.17 (LICENSE)"
+  ],
+  "23d466b1b134b415b66fa50c6526b4cf3e7b9258554da88d3abb371721e7ce68": [
+    "npm:compression@1.8.2 (LICENSE)"
+  ],
+  "24973d5320410e565ec92f18f73f12af7d97c634d414ba170d119fe3f98904c8": [
+    "npm:finalhandler@1.1.2 (LICENSE)"
+  ],
+  "255aa557a1f55224ce522f311629c0bf20854740a67955cefd798fbd1d3d1ded": [
+    "npm:escape-html@1.0.3 (LICENSE)"
+  ],
+  "257aed98914108e91a337912727b6a802eef218248507f74b76faffaff517a38": [
+    "npm:content-type@2.1.0 (LICENSE)"
+  ],
+  "25a328069fe771f8ed5b6f983ed4b0e6c84b3312ac0f69b28c3d52dc277962c9": [
+    "npm:send@0.19.2 (LICENSE)"
+  ],
+  "25ba5c59dad3e0dd8f9540beaa0f0a86a10e3aec35af5fdc8e88c5f6a5c0d8c6": [
+    "npm:electron-to-chromium@1.5.399 (LICENSE)"
+  ],
+  "25bd22427e27b0d3f1c3da2670bb44b622bcced22ebdf4777d5488ac129370a1": [
+    "npm:ci-info@2.0.0 (LICENSE)"
+  ],
+  "29de249ac0cee0d56924ff07bdabc8f708ad58432c7a357f6065000c49b12e11": [
+    "npm:use-latest-callback@0.2.6 (LICENSE)"
+  ],
+  "2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1": [
+    "npm:fsevents@2.3.3 (LICENSE)"
+  ],
+  "2afdd30d54b4d62b6f488a6bcc1546e84ec5061f13f4209c03d012348783795a": [
+    "pypi:pydantic-core@2.46.4 (pydantic_core-2.46.4.dist-info/licenses/LICENSE)"
+  ],
+  "2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef": [
+    "npm:ws@8.22.0 (LICENSE)"
+  ],
+  "2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901": [
+    "npm:minimatch@10.2.6 (LICENSE.md)"
+  ],
+  "2cee71bf4612fc2efe1c6261e3f2b21f3c7259ef8a4f3593b095ae7a7bd65ad9": [
+    "npm:merge-stream@2.0.0 (LICENSE)"
+  ],
+  "2d65cdba6e67bd7fa9c59070eb3ef5b65490cf1644560eb30c931a1d364009c2": [
+    "npm:regjsparser@0.13.3 (LICENSE.BSD)"
+  ],
+  "2dc0465729366c3a7890dfa9e972a1ba7048a26c02116fb8b419a6a1ac110149": [
+    "npm:cliui@8.0.1 (LICENSE.txt)"
+  ],
+  "2e97627cb278aa7556fb9e8817368302301a595b6c7582512b8d74c57b773652": [
+    "npm:@babel/parser@7.29.8 (LICENSE)"
+  ],
+  "2f1a503bfab84b3ba7393627308b3274501e459e3b5185bbb56bbf16cb1602d4": [
+    "npm:yargs@17.7.3 (LICENSE)"
+  ],
+  "306fa513e39b23a6e8747520de761809d206b99800ef41907b530226574c59ae": [
+    "npm:kleur@3.0.3 (license)"
+  ],
+  "30f0cfddf483d1128e3610205020f2041a6c5e837aa999e0aa82e5576187d4a9": [
+    "npm:aria-hidden@1.2.6 (LICENSE)",
+    "npm:react-remove-scroll@2.7.2 (LICENSE)",
+    "npm:react-style-singleton@2.2.3 (LICENSE)",
+    "npm:use-callback-ref@1.3.3 (LICENSE)",
+    "npm:use-sidecar@1.1.3 (LICENSE)"
+  ],
+  "32fb6556bc84c192f493cbb1503b99f6ee893227a9473290e88699fde9807fd3": [
+    "npm:@sinclair/typebox@0.27.12 (license)"
+  ],
+  "334dd6820e2eaeab2064e7c59001b810566728a28a41a7c1dbf69bbee17d0936": [
+    "npm:@supabase/auth-js@2.112.2 (LICENSE)",
+    "npm:@supabase/functions-js@2.112.2 (LICENSE)",
+    "npm:@supabase/postgrest-js@2.112.2 (LICENSE)",
+    "npm:@supabase/realtime-js@2.112.2 (LICENSE)",
+    "npm:@supabase/storage-js@2.112.2 (LICENSE)",
+    "npm:@supabase/supabase-js@2.112.2 (LICENSE)"
+  ],
+  "350d3529dc75e7a9b463b62c959a2abd24b568b8a6a39e3fb006f1a3c8cb31a0": [
+    "npm:css-in-js-utils@3.1.0 (LICENSE)"
+  ],
+  "35bdd8a44339719441900fb50fbefc5e2dca1ca662cbaed7a687de842c8b70f2": [
+    "npm:braces@3.0.3 (LICENSE)",
+    "npm:fill-range@7.1.1 (LICENSE)",
+    "npm:is-number@7.0.0 (LICENSE)",
+    "npm:micromatch@4.0.8 (LICENSE)"
+  ],
+  "365496ca1f56da40b23c9815fc40fa9005847b2f8f8fd1c1a4929ef25ec8cd1d": [
+    "npm:yargs-parser@21.1.1 (LICENSE.txt)"
+  ],
+  "3677dc86e6e5f119b500c308cc24cf533e2eb44c41050ea64584e049e5b70161": [
+    "npm:plist@3.1.1 (LICENSE)"
+  ],
+  "3687447039151857a6ba378db062172c7f33d4aa70a615c87a43a9c50e990485": [
+    "npm:postcss-value-parser@4.2.0 (LICENSE)"
+  ],
+  "36ffd9dc085d529a7e60e1276d73ae5a030b020313e6c5408593a6ae2af39673": [
+    "npm:mdn-data@2.0.14 (LICENSE)"
+  ],
+  "3706296ed611888111ceccc1dff4712844dea4bde0b185c82d718c3b69895abe": [
+    "npm:node-releases@2.0.51 (LICENSE)"
+  ],
+  "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361": [
+    "pypi:h11@0.16.0 (h11-0.16.0.dist-info/licenses/LICENSE.txt)"
+  ],
+  "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95": [
+    "npm:debug@4.4.3 (LICENSE)"
+  ],
+  "3a7d3bb198e909ed642bd68bd29a7d7c09a636d27a51ec663d35f00c4760ec42": [
+    "npm:source-map-support@0.5.21 (LICENSE.md)"
+  ],
+  "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf": [
+    "pypi:typing-extensions@4.16.0 (typing_extensions-4.16.0.dist-info/licenses/LICENSE)"
+  ],
+  "3d6a0c050d8bec52fabad502e45fb25bd02bcadbd70dea34d447b6a0ff4e6da8": [
+    "pypi:websockets@16.1.1 (websockets-16.1.1.dist-info/licenses/LICENSE)"
+  ],
+  "3de284c8e6fa7e8437eff6f53695471e0332129a5b42a79361e17b7637de94b3": [
+    "npm:ws@7.5.13 (LICENSE)"
+  ],
+  "3df5f9a382da026c813ce3fc95c6c07815eb3ba39f009f482df64eb6af1a3b39": [
+    "npm:uuid@7.0.3 (LICENSE.md)"
+  ],
+  "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb": [
+    "pypi:cryptography@50.0.0 (cryptography-50.0.0.dist-info/licenses/LICENSE)"
+  ],
+  "3f1189b28e3866e0d979968d466b78f813f76827cfdca1fbb124cc0a5c8841f8": [
+    "npm:zod@3.25.76 (LICENSE)"
+  ],
+  "3f4609137f65070541b9214300ea0d640af8192857de0eeb2b03403003d9228a": [
+    "npm:path-parse@1.0.7 (LICENSE)"
+  ],
+  "3fb0857ef0133928cf72c88dfc464e931486e88778961eedec25585e2321507f": [
+    "npm:clone@1.0.4 (LICENSE)"
+  ],
+  "41a686069f0199ff369d7e5277d5267385cc54d9199f1efc960bacbe2e799255": [
+    "npm:@supabase/phoenix@0.4.5 (LICENSE.md)"
+  ],
+  "41f2eef190265a6ea435951170947e35461707f91631821b3a67421bea5b2a7c": [
+    "npm:@expo/code-signing-certificates@0.0.6 (LICENSE)"
+  ],
+  "41f321b33afaa5cdaeb7c1aecd6fd5c21467ff910fb677aa47c941d05b5032c0": [
+    "npm:react-native-drawer-layout@4.2.10 (LICENSE)"
+  ],
+  "4345c259177dc1f552479360a7deed393207504d75603111c81efeba2202c559": [
+    "npm:inline-style-prefixer@7.0.1 (LICENSE)"
+  ],
+  "43571857d624621d9c1f5933339bdb3a31832919bed8143494acf1ae2fa46dc5": [
+    "npm:@babel/helper-define-polyfill-provider@0.6.8 (LICENSE)",
+    "npm:babel-plugin-polyfill-corejs2@0.4.17 (LICENSE)",
+    "npm:babel-plugin-polyfill-corejs3@0.13.0 (LICENSE)",
+    "npm:babel-plugin-polyfill-regenerator@0.6.8 (LICENSE)"
+  ],
+  "44c9dad53093c40f55d0de5faf29797074d7c72003d158fff6bb6a69ba3a13dc": [
+    "npm:react-native-url-polyfill@4.0.0 (LICENSE)"
+  ],
+  "451ec07eeb9c4e1b86de9abdaa426462a8be48f887ec7421cf0bbb9c769555ab": [
+    "npm:lru-cache@10.4.3 (LICENSE)"
+  ],
+  "479b48ab7acdf844b2f44d6a3ce806f932ad009d84d2c71651355b372a2ad0ad": [
+    "npm:dnssd-advertise@1.1.6 (LICENSE.md)",
+    "npm:multitars@1.0.2 (LICENSE.md)",
+    "npm:toqr@0.1.1 (LICENSE.md)"
+  ],
+  "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a": [
+    "npm:emoji-regex@8.0.0 (LICENSE-MIT.txt)",
+    "npm:jsesc@3.1.0 (LICENSE-MIT.txt)",
+    "npm:regenerate@1.4.2 (LICENSE-MIT.txt)",
+    "npm:regenerate-unicode-properties@10.2.2 (LICENSE-MIT.txt)",
+    "npm:regexpu-core@6.4.0 (LICENSE-MIT.txt)",
+    "npm:unicode-canonical-property-names-ecmascript@2.0.1 (LICENSE-MIT.txt)",
+    "npm:unicode-match-property-ecmascript@2.0.0 (LICENSE-MIT.txt)",
+    "npm:unicode-match-property-value-ecmascript@2.2.1 (LICENSE-MIT.txt)",
+    "npm:unicode-property-aliases-ecmascript@2.2.0 (LICENSE-MIT.txt)"
+  ],
+  "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea": [
+    "pypi:markupsafe@3.0.3 (markupsafe-3.0.3.dist-info/licenses/LICENSE.txt)"
+  ],
+  "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0": [
+    "npm:ansi-regex@5.0.1 (license)",
+    "npm:ansi-styles@4.3.0 (license)",
+    "npm:chalk@4.1.2 (license)",
+    "npm:has-flag@4.0.0 (license)",
+    "npm:is-fullwidth-code-point@3.0.0 (license)",
+    "npm:is-wsl@2.2.0 (license)",
+    "npm:leven@3.1.0 (license)",
+    "npm:log-symbols@2.2.0 (license)",
+    "npm:ansi-styles@3.2.1 (license)",
+    "npm:chalk@2.4.2 (license)",
+    "npm:has-flag@3.0.0 (license)",
+    "npm:supports-color@5.5.0 (license)",
+    "npm:mimic-fn@1.2.0 (license)",
+    "npm:ora@3.4.0 (license)",
+    "npm:ansi-regex@4.1.1 (license)",
+    "npm:ansi-styles@3.2.1 (license)",
+    "npm:chalk@2.4.2 (license)",
+    "npm:has-flag@3.0.0 (license)",
+    "npm:strip-ansi@5.2.0 (license)",
+    "npm:supports-color@5.5.0 (license)",
+    "npm:path-key@3.1.1 (license)",
+    "npm:ansi-styles@5.2.0 (license)",
+    "npm:resolve-from@5.0.0 (license)",
+    "npm:shebang-regex@3.0.0 (license)",
+    "npm:split-on-first@1.1.0 (license)",
+    "npm:string-width@4.2.3 (license)",
+    "npm:strip-ansi@6.0.1 (license)",
+    "npm:supports-color@7.2.0 (license)",
+    "npm:terminal-link@2.1.1 (license)",
+    "npm:type-fest@0.7.1 (license)"
+  ],
+  "49c5f9c7097c9a940ff663a54c27a4c60e379df6cc2b3052df0d37a09a85df93": [
+    "npm:@expo/require-utils@57.0.5 (LICENSE)",
+    "npm:@expo/schema-utils@57.0.2 (LICENSE)"
+  ],
+  "4be9d87b56a306293223b490c0d0b245e9e94f39884147bf051a6c7b825aeb30": [
+    "npm:@babel/helpers@7.29.7 (LICENSE)"
+  ],
+  "4c0844caafd3db9a4b643ea493558873710f4e9c8b257887ba066e5e80557848": [
+    "npm:color@4.2.3 (LICENSE)"
+  ],
+  "4da724fc305d81606b245b324d4d2586916b9d248b23d82183df753ace0fdf71": [
+    "npm:@xmldom/xmldom@0.8.15 (LICENSE)",
+    "npm:@xmldom/xmldom@0.9.12 (LICENSE)"
+  ],
+  "4eb7543b08d955a6d23fcc224601d43ff566e775be918805e26210d7f6eb4893": [
+    "npm:loose-envify@1.4.0 (LICENSE)"
+  ],
+  "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b": [
+    "npm:semver@7.8.5 (LICENSE)",
+    "npm:semver@7.8.5 (LICENSE)",
+    "npm:semver@7.8.5 (LICENSE)",
+    "npm:semver@7.8.5 (LICENSE)",
+    "npm:semver@7.8.5 (LICENSE)",
+    "npm:semver@7.8.5 (LICENSE)",
+    "npm:semver@7.8.5 (LICENSE)",
+    "npm:isexe@2.0.0 (LICENSE)",
+    "npm:lru-cache@5.1.1 (LICENSE)",
+    "npm:semver@7.8.5 (LICENSE)",
+    "npm:semver@7.8.5 (LICENSE)",
+    "npm:semver@7.8.5 (LICENSE)",
+    "npm:semver@7.8.5 (LICENSE)",
+    "npm:semver@6.3.1 (LICENSE)",
+    "npm:which@2.0.2 (LICENSE)",
+    "npm:yallist@3.1.1 (LICENSE)"
+  ],
+  "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d": [
+    "pypi:httpx@0.28.1 (httpx-0.28.1.dist-info/licenses/LICENSE.md)"
+  ],
+  "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e": [
+    "pypi:fastapi@0.141.1 (fastapi-0.141.1.dist-info/licenses/LICENSE)"
+  ],
+  "4efb635cc4fd67f738ce2af65f8b73514ee338d0d201b836ab3a823cfda771d1": [
+    "npm:react-native-is-edge-to-edge@1.3.1 (LICENSE)"
+  ],
+  "4f14cf5bba1b5232556f5a0136dbde9d3e53741f8fd04a2f4eb0a03b8ca5c981": [
+    "npm:react-native-purchases-ui@10.7.0 (LICENSE)"
+  ],
+  "50e6751797c50dedd75ef1b8a0d9e42f5f8472e9fbce91f34718e9f97b0c780a": [
+    "npm:fb-dotslash@0.5.8 (LICENSE-APACHE)"
+  ],
+  "512cfa4d5e7a7569c7ae4dd95241cb6ae2aaf648ef9ebd080c01bd24868d26e9": [
+    "npm:statuses@2.0.2 (LICENSE)",
+    "npm:statuses@2.0.2 (LICENSE)",
+    "npm:statuses@1.5.0 (LICENSE)"
+  ],
+  "51887a3d47051ac2fce1210562e5b9fe0830a8a8fabeb272c2d586eeb18a05fd": [
+    "npm:regenerator-runtime@0.13.11 (LICENSE)"
+  ],
+  "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85": [
+    "npm:babel-plugin-transform-flow-enums@0.0.2 (LICENSE)",
+    "npm:flow-enums-runtime@0.0.6 (LICENSE)",
+    "npm:react-is@18.3.1 (LICENSE)",
+    "npm:react-refresh@0.14.2 (LICENSE)"
+  ],
+  "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0": [
+    "pypi:anyio@4.14.2 (anyio-4.14.2.dist-info/licenses/LICENSE)"
+  ],
+  "53e59feb13058722d977c699eb0407c7bce2f93c949b681bbd2ff31698535927": [
+    "npm:json5@2.2.3 (LICENSE.md)"
+  ],
+  "540c425a30eea428eb24cc9d6884982783eb89403f443db1a4ad61eb78003f04": [
+    "npm:fetch-nodeshim@0.4.10 (LICENSE.md)"
+  ],
+  "54b32293ea560d22cd9b62af9b2cda1a030d910a48c6601d227c5ff2338d95f8": [
+    "npm:detect-node-es@1.1.0 (LICENSE)"
+  ],
+  "553d4d20029a24e315b428a1a54a9e109eaa340f2e958a4f50a92362c2c4070b": [
+    "npm:negotiator@0.6.4 (LICENSE)",
+    "npm:negotiator@0.6.3 (LICENSE)",
+    "npm:negotiator@1.1.0 (LICENSE)"
+  ],
+  "555e1f70ce6b9b7ce77ad07ba8b2b6b3a543b2c7cc8fe15a2c30ad1b89667e21": [
+    "npm:walker@1.0.8 (LICENSE)"
+  ],
+  "560005aa01c5230147ca813dabd1970628d6c6ef57ad8f1553ad20ef9dce451b": [
+    "npm:vlq@1.0.1 (LICENSE)"
+  ],
+  "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd": [
+    "npm:@expo-google-fonts/material-symbols@0.4.48 (LICENSE_FONT)"
+  ],
+  "5b37224c080cdcc97c871ada971c224e9926370fe74f11b539aa1cf9f3b1aca1": [
+    "npm:base64-js@1.5.1 (LICENSE)"
+  ],
+  "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63": [
+    "pypi:cffi@2.1.1 (cffi-2.1.1.dist-info/licenses/LICENSE)"
+  ],
+  "5bba27375d93e9119f76c1015f7672cf9ad5f70952296e0842fb2243d6376869": [
+    "npm:yaml@2.9.1 (LICENSE)"
+  ],
+  "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8": [
+    "npm:postcss@8.5.28 (LICENSE)"
+  ],
+  "5c496ce5ae47eb8e5ddcaa5e29c27c446a3855b19e3a66991b52f361bed22b28": [
+    "npm:is-core-module@2.17.0 (LICENSE)"
+  ],
+  "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3": [
+    "npm:ansi-escapes@4.3.2 (license)",
+    "npm:camelcase@6.3.0 (license)",
+    "npm:cli-spinners@2.9.2 (license)",
+    "npm:escape-string-regexp@4.0.0 (license)",
+    "npm:is-docker@2.2.1 (license)",
+    "npm:supports-color@8.1.1 (license)",
+    "npm:open@7.4.2 (license)",
+    "npm:wrap-ansi@7.0.0 (license)"
+  ],
+  "5e325595b4ea8cfec3802f545b1def5d7b73e4a5b8e9ba63e32a320f67732292": [
+    "npm:es-errors@1.3.0 (LICENSE)"
+  ],
+  "5e733eb92ed0c571da3f27c5da203e0a9f975b4f96e7692c9fa3660ca54820ec": [
+    "npm:promise@7.3.1 (LICENSE)",
+    "npm:promise@8.3.0 (LICENSE)"
+  ],
+  "5eba353fe5076ac3432177f8ab1cf75e3afcd0584251e37c3bfead5f447d040e": [
+    "npm:lightningcss@1.33.0 (LICENSE)",
+    "npm:lightningcss-android-arm64@1.33.0 (LICENSE)",
+    "npm:lightningcss-darwin-arm64@1.33.0 (LICENSE)",
+    "npm:lightningcss-darwin-x64@1.33.0 (LICENSE)",
+    "npm:lightningcss-freebsd-x64@1.33.0 (LICENSE)",
+    "npm:lightningcss-linux-arm-gnueabihf@1.33.0 (LICENSE)",
+    "npm:lightningcss-linux-arm64-gnu@1.33.0 (LICENSE)",
+    "npm:lightningcss-linux-arm64-musl@1.33.0 (LICENSE)",
+    "npm:lightningcss-linux-x64-gnu@1.33.0 (LICENSE)",
+    "npm:lightningcss-linux-x64-musl@1.33.0 (LICENSE)",
+    "npm:lightningcss-win32-arm64-msvc@1.33.0 (LICENSE)",
+    "npm:lightningcss-win32-x64-msvc@1.33.0 (LICENSE)"
+  ],
+  "5ffe28e7ade7d8f10d85d5337a73fd793dac5c462fb9a28fbf8c5046c7fbca3b": [
+    "npm:inherits@2.0.4 (LICENSE)"
+  ],
+  "602c4c7482de6479dd2e9793cda275e5e63d773dacd1eca689232ab7008fb4fb": [
+    "pypi:cryptography@50.0.0 (cryptography-50.0.0.dist-info/licenses/LICENSE.BSD)"
+  ],
+  "60acd7711e6c138e6041836e32d922705254cc1568a30fdf16aa8f59bb87aeaa": [
+    "npm:resolve@1.22.12 (LICENSE)"
+  ],
+  "61bed033eebace09bbefb1a3903ebc09e0086ea793d1694fbe300827adc9f921": [
+    "npm:supports-hyperlinks@2.3.0 (license)"
+  ],
+  "6294da0e0a201bbe1de254445c9d07133a9448af05e4e44d0a2364747d114368": [
+    "npm:wcwidth@1.0.1 (LICENSE)"
+  ],
+  "63b9a188d7d43e64b0558b7115255045b9fe20a5fc3ff483421cb899e7f52bcb": [
+    "npm:serve-static@1.16.3 (LICENSE)"
+  ],
+  "64a93ffc0a06a2266dbb57ed7ebe3b56ba66ab337b6347fabdbf86c76819fbae": [
+    "npm:type-fest@0.21.3 (license)"
+  ],
+  "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750": [
+    "npm:picocolors@1.1.1 (LICENSE)"
+  ],
+  "6652830c2607c722b66f1b57de15877ab8fc5dca406cc5b335afeb365d0f32c1": [
+    "npm:ms@2.0.0 (license.md)",
+    "npm:ms@2.0.0 (license.md)",
+    "npm:ms@2.0.0 (license.md)",
+    "npm:ms@2.0.0 (license.md)",
+    "npm:ms@2.0.0 (license.md)"
+  ],
+  "693866fc419c6f61c8570438ec00659d156ec2b4d4a4d04091711f5f11a365d4": [
+    "npm:color-convert@2.0.1 (LICENSE)",
+    "npm:color-convert@1.9.3 (LICENSE)",
+    "npm:color-convert@1.9.3 (LICENSE)"
+  ],
+  "69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3": [
+    "npm:parse-png@2.1.0 (license)",
+    "npm:shebang-command@2.0.0 (license)"
+  ],
+  "6b7a1792144374d84dc5ed3655b8bbe2754d06f4f1f64a9fb8b9de2d6f448b85": [
+    "npm:whatwg-url@5.0.0 (LICENSE.txt)"
+  ],
+  "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd": [
+    "npm:source-map@0.6.1 (LICENSE)",
+    "npm:source-map@0.5.7 (LICENSE)",
+    "npm:source-map-js@1.2.1 (LICENSE)",
+    "npm:source-map@0.6.1 (LICENSE)"
+  ],
+  "6cfc4687cb2f2d86f4a77e6b526290d3878e5e512f3fec2f4cb36a9cb36f798b": [
+    "npm:deepmerge@4.3.1 (license.txt)"
+  ],
+  "6e68d94a03a0e3e327ddf3e86d1ebedc14eece3922022618fc246a36296fd0cc": [
+    "pypi:alembic@1.19.1 (alembic-1.19.1.dist-info/licenses/LICENSE)"
+  ],
+  "6e7d699cdd1e4fa837ba7718ea49841aa67201b449ea8b3f9cf274be15974a64": [
+    "npm:utils-merge@1.0.1 (LICENSE)"
+  ],
+  "6fb9754611c20f6649f68805e8c990e83261f29316e29de9e6cedae607b8634c": [
+    "npm:cli-cursor@2.1.0 (license)",
+    "npm:filter-obj@1.1.0 (license)",
+    "npm:escape-string-regexp@1.0.5 (license)",
+    "npm:object-assign@4.1.1 (license)",
+    "npm:onetime@2.0.1 (license)",
+    "npm:escape-string-regexp@1.0.5 (license)",
+    "npm:restore-cursor@2.0.0 (license)",
+    "npm:serialize-error@2.1.0 (license)"
+  ],
+  "706ffe2db6ae2993ed01bc7f3cde114373fe79eb6123dfc6d8d41f53989a2be6": [
+    "npm:anser@1.4.10 (LICENSE)"
+  ],
+  "709e45bb17277819ce27e9abe5dc8e56fe93081e54adb6e6385517f28aa11ac4": [
+    "npm:shallowequal@1.1.0 (LICENSE)"
+  ],
+  "71f83c4c0621102a56d9853812777b85751bce7e9726f686f5b056c1f8a4b0e6": [
+    "npm:accepts@2.0.0 (LICENSE)",
+    "npm:accepts@1.3.8 (LICENSE)",
+    "npm:mime-types@2.1.35 (LICENSE)",
+    "npm:mime-types@3.0.2 (LICENSE)"
+  ],
+  "736835b6c374cbfb66ccfbfc4f8819bcbeae3cfd5f5e5507f25f4caeabf9540e": [
+    "npm:@expo/spawn-async@1.8.0 (LICENSE)"
+  ],
+  "74d8054d56d522bdaa340d3d71130cb204997d523a5292c85ac1264dd77c8d06": [
+    "npm:on-headers@1.1.0 (LICENSE)"
+  ],
+  "7585ea7bba616ccbbe43cb54ecb67956688c3c5641bb84f3099a652a73193afe": [
+    "npm:encodeurl@1.0.2 (LICENSE)",
+    "npm:encodeurl@2.0.0 (LICENSE)",
+    "npm:encodeurl@2.0.0 (LICENSE)"
+  ],
+  "769831d6e5dfaf2c20802faccff1fafb4c2025dd8f6253dfa47fcad59d4d0979": [
+    "pypi:greenlet@3.5.5 (greenlet-3.5.5.dist-info/licenses/LICENSE)"
+  ],
+  "769d154fbde32a915af110b1123650bc79f4cbe675acc66e005265bf069c6c6c": [
+    "npm:@jridgewell/gen-mapping@0.3.13 (LICENSE)",
+    "npm:@jridgewell/remapping@2.3.5 (LICENSE)",
+    "npm:@jridgewell/source-map@0.3.11 (LICENSE)",
+    "npm:@jridgewell/sourcemap-codec@1.5.5 (LICENSE)",
+    "npm:@jridgewell/trace-mapping@0.3.31 (LICENSE)"
+  ],
+  "76a876cf886ff9be2a8b5e2e86514fed06223c8c9f0c1e9ee9606e93841e00b7": [
+    "npm:acorn@8.18.0 (LICENSE)"
+  ],
+  "76d6d1ea0c268da37dd3c961b4fcfb23dee8417fff9e8786d4d44c585b781b69": [
+    "npm:setprototypeof@1.2.0 (LICENSE)"
+  ],
+  "773e131a7684726005a7e4688a80b4620033bc08499bc1404dd1a1eb3bca725e": [
+    "npm:function-bind@1.1.2 (LICENSE)"
+  ],
+  "77e57f8a31eb21899940135b8f3acba2b0fc1825cc07db66e7b63b2f936f35ff": [
+    "npm:@revenuecat/purchases-js-hybrid-mappings@18.29.0 (LICENSE)",
+    "npm:@revenuecat/purchases-typescript-internal@18.29.0 (LICENSE)"
+  ],
+  "797a7a20231d4c433e9f1911db1731d06b5828b98f499819a034f7c0f56f5ce5": [
+    "pypi:pyjwt@2.13.0 (pyjwt-2.13.0.dist-info/licenses/LICENSE)"
+  ],
+  "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a": [
+    "npm:fast-deep-equal@3.1.3 (LICENSE)"
+  ],
+  "7ec9661a8afafab1eee3523d6f1a193eff76314a5ab10b4ce96aefd87621b0c3": [
+    "npm:chrome-launcher@0.15.2 (LICENSE)",
+    "npm:chromium-edge-launcher@0.3.0 (LICENSE)",
+    "npm:lighthouse-logger@1.4.2 (LICENSE)"
+  ],
+  "804a84c51eaa182f86636b463d2bffc73e8592aa2bea192556e003deaf506711": [
+    "npm:@babel/plugin-transform-regenerator@7.29.8 (LICENSE)"
+  ],
+  "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3": [
+    "pypi:typing-inspection@0.4.4 (typing_inspection-0.4.4.dist-info/licenses/LICENSE)"
+  ],
+  "8089bcc08845ec143e5761f4a101a65b8c792a0dedbfeeb90a15560c0b77f768": [
+    "npm:on-finished@2.3.0 (LICENSE)",
+    "npm:on-finished@2.4.1 (LICENSE)"
+  ],
+  "80de3c4eed58e1e8584be9891ba78e70493192972e2210aaafe4f09f616cb3c9": [
+    "npm:sf-symbols-typescript@2.2.0 (LICENSE)"
+  ],
+  "821a6be45c3fd08815688b30b6210fc97848cf88c7a6ed8afb22ae75b83571b4": [
+    "npm:cross-fetch@3.2.0 (LICENSE)"
+  ],
+  "846c2349412e40c3c33095b2903f6a311ef4b30ccd26c214044a2cdc24fdc5cc": [
+    "npm:query-string@7.1.3 (license)"
+  ],
+  "84eaa985e1ef71b8c630e8aba73404c219ff425c6fdb45c62e998b58d4fbdc8e": [
+    "npm:node-fetch@2.7.0 (LICENSE.md)"
+  ],
+  "8984783ab2478bbee455f0eb6c375b5b62c57c86d4a55f6bf96dfd08e8d48a10": [
+    "npm:color-string@1.9.1 (LICENSE)"
+  ],
+  "898c2bcff663681498ad1ca8235d45b6e70b10cdf1f869a5b5e69f6e46efedd3": [
+    "npm:npm-package-arg@11.0.3 (LICENSE)"
+  ],
+  "899da9d991cb211a3642b84e82a9ae0b4b4e44546fd207e34d7d4ec2eb40f420": [
+    "npm:error-stack-parser@2.1.4 (LICENSE)",
+    "npm:stackframe@1.3.4 (LICENSE)"
+  ],
+  "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004": [
+    "npm:minipass@7.1.3 (LICENSE.md)",
+    "npm:path-scurry@2.0.2 (LICENSE.md)",
+    "npm:lru-cache@11.5.3 (LICENSE.md)",
+    "npm:sax@1.6.1 (LICENSE.md)"
+  ],
+  "8bb16db1b047019e4395965f2cf3611b06c34bf86dc2d0210b3c3f91b53c21fe": [
+    "npm:shell-quote@1.10.0 (LICENSE)"
+  ],
+  "8c1d171bc5d341ad9cd33d5e2c39b96a82c7bd49b3ae89a470c37e5822232054": [
+    "pypi:mako@1.4.1 (mako-1.4.1.dist-info/licenses/LICENSE)"
+  ],
+  "8d8c55319c7729d57be811c747452636688d54f19701ee0752b6b15ad3771d9a": [
+    "npm:agent-base@7.1.4 (LICENSE)",
+    "npm:https-proxy-agent@7.0.6 (LICENSE)"
+  ],
+  "8dacb1e00ec1cf679e7987c87c9953ce6a4d96e7ef361dd04cd453643e9b3351": [
+    "npm:@expo/config-types@57.0.2 (LICENSE)"
+  ],
+  "8dded67841a9261a622c739fb61c81785e93765de852828ceeb9403d20a74581": [
+    "npm:tsx@4.23.1 (LICENSE)"
+  ],
+  "8df3c23e3dfffa0d3d41c59fae5741ea3e2c50eb19c52a5d8912a68fdba554c2": [
+    "npm:slugify@1.6.9 (LICENSE)"
+  ],
+  "8f2658c03422c408b2b2ce4d151decc3b1a6fd3d86e5ca9433777bccdcdf75a2": [
+    "npm:mime@1.6.0 (LICENSE)"
+  ],
+  "8f67ef1afdbd7b8ddc3e2da9968bb97af30795ae9c90a2cc4d867e5608216973": [
+    "npm:simple-swizzle@0.2.4 (LICENSE)"
+  ],
+  "8f85aab053e268546014761da47630a09886626afbd0d8d440cb2c69611bb8d3": [
+    "npm:node-int64@0.4.0 (LICENSE)"
+  ],
+  "8ff4aae800e54e41c72f162f6227aa3f23209b0db4936efee7a7249015492e15": [
+    "npm:lan-network@0.2.1 (LICENSE.md)"
+  ],
+  "901d0a7fcaccaae9917d165039c0473c354e5da2e0e94140dde67aad9ffb19da": [
+    "npm:terser@5.51.2 (LICENSE)"
+  ],
+  "902dbb4154679fb2b8d7c33878183f45b268d01eae5e5033dddaa8852d45f213": [
+    "npm:get-caller-file@2.0.5 (LICENSE.md)"
+  ],
+  "91887c62d26f64b8d6e98b1dca57e75aca62e6f9af79fb0783f8f1904abaeea6": [
+    "npm:arg@5.0.2 (LICENSE.md)"
+  ],
+  "925ce43461029eedbf558ec0b7cf7fc4b045def5120ebb97937c70814071cf07": [
+    "pypi:pyjwt@2.13.0 (pyjwt-2.13.0.dist-info/licenses/AUTHORS.rst)"
+  ],
+  "92b07a2e5b0e051d37dde85042c736d6d551cfcbc0983f39d7ef903b3986bbc1": [
+    "npm:is-arrayish@0.3.4 (LICENSE)"
+  ],
+  "92c22d327a6644efda43527bfa6f136f4382359f40bc288eda0764f67be9c269": [
+    "npm:react-native-worklets@0.10.1 (LICENSE)"
+  ],
+  "93123485850ea14be95f9babdf675880f5a80cc623ffe4f750f4b7bfbc2b3f7b": [
+    "npm:bplist-parser@0.3.1 (README.md#License)"
+  ],
+  "94cfe87de9b178e8fee313a19178e625129e2ce559db32e772e7bd95114ee6ff": [
+    "npm:dom-serializer@2.0.0 (LICENSE)"
+  ],
+  "95b52e497653b738fd50e4bd3a8197dc41593c63129acb4f8069dbf49530ef82": [
+    "npm:react-native-screens@4.26.2 (LICENSE)"
+  ],
+  "9659b14ee609fc60bcb0d660a0823d03bbb6184c20d1f50e96af4bbe1f56d5b1": [
+    "npm:ua-parser-js@1.0.41 (license.md)"
+  ],
+  "965ef284f7f4c176842ec2e87fa13e79feed777d56d7a21a5a3b38f1bb6dc288": [
+    "npm:ee-first@1.1.1 (LICENSE)"
+  ],
+  "97d87142793695cd73243de7258694abe85b3b6060fca7f247b0a2afa8219678": [
+    "npm:event-target-shim@5.0.1 (LICENSE)"
+  ],
+  "98c970de440dcfc77471610aec2377c9d9b0db2b3be6d1add524a586e1d7f422": [
+    "npm:debug@3.2.7 (LICENSE)",
+    "npm:debug@2.6.9 (LICENSE)",
+    "npm:debug@2.6.9 (LICENSE)",
+    "npm:debug@2.6.9 (LICENSE)",
+    "npm:debug@2.6.9 (LICENSE)",
+    "npm:debug@2.6.9 (LICENSE)"
+  ],
+  "9913ff70f23424d49fda2b05902cfb72f17ae1e48aaf898c349a284289a74751": [
+    "npm:connect@3.7.0 (LICENSE)"
+  ],
+  "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86": [
+    "npm:fdir@6.5.0 (LICENSE)"
+  ],
+  "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d": [
+    "pypi:click@8.4.2 (click-8.4.2.dist-info/licenses/LICENSE.txt)"
+  ],
+  "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97": [
+    "npm:escalade@3.2.0 (license)"
+  ],
+  "9c63a23124d68cd30cd316a94a1a0bca34f032786df6df69fc4b5f136bac8d2e": [
+    "npm:brace-expansion@5.0.12 (LICENSE)"
+  ],
+  "9c94db23dc4b1e9aaee5d195668b916afc71efed54af226b66cf0ccc4389c1c0": [
+    "npm:ignore@5.3.2 (LICENSE-MIT)"
+  ],
+  "9ce8fc28ff49e651f98d6583b41ae1653dafaf6fc7444f3dfd13eb97451084bb": [
+    "npm:simple-plist@1.3.1 (LICENSE)"
+  ],
+  "9d9cf7980a46628abcbcf88577ecaed2968b69f9123d6aaba6f9496ed3648c1a": [
+    "npm:@expo/env@2.4.3 (LICENSE)"
+  ],
+  "a07bc24468b9654ce76a547d47a2db282d07733b715db4c73a98bd63961f9550": [
+    "npm:js-yaml@4.3.2 (LICENSE)"
+  ],
+  "a0ec0dab16b3666f24950f86d257930ac2ad475557b4bfe245620e0817d8a45d": [
+    "npm:fresh@0.5.2 (LICENSE)"
+  ],
+  "a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09": [
+    "npm:glob@13.0.6 (LICENSE.md)"
+  ],
+  "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27": [
+    "npm:undici-types@6.21.0 (LICENSE)"
+  ],
+  "a7996721249a136fbcfc1c201bcb5f414f38a701d4a24f28abe65e16cfcce813": [
+    "npm:etag@1.8.1 (LICENSE)"
+  ],
+  "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47": [
+    "npm:typescript@6.0.3 (LICENSE.txt)"
+  ],
+  "a832d679750e49ab433626ab196350b89964b60eb0d3edd3341887c7d5f4c128": [
+    "npm:toidentifier@1.0.1 (LICENSE)"
+  ],
+  "a889cc4dbee2ae172c179856b25d75b0b7a5a136e1b97109b9b590b2ff1a879c": [
+    "npm:webidl-conversions@3.0.1 (LICENSE.md)"
+  ],
+  "a92e52eb1fa7cd746e3827bf01d3a3589bbc8e1e51348b1da042aad165525ad1": [
+    "npm:require-directory@2.1.1 (LICENSE)"
+  ],
+  "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3": [
+    "pypi:pydantic@2.13.4 (pydantic-2.13.4.dist-info/licenses/LICENSE)"
+  ],
+  "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1": [
+    "npm:cross-spawn@7.0.6 (LICENSE)"
+  ],
+  "aac73b3148f6d1d7111dbca32099f68d26c644c6813ae1e4f05f6579aa2663fe": [
+    "pypi:cryptography@50.0.0 (cryptography-50.0.0.dist-info/licenses/LICENSE.APACHE)"
+  ],
+  "acf3b087b348d2f2e731b9d4131af185aad694c1204ce14a46909483fd42da05": [
+    "npm:get-nonce@1.0.1 (LICENSE)"
+  ],
+  "ade66f698fd417addc4d948a85ef33e8abb302daff6453feda18b191d250e54d": [
+    "npm:prompts@2.4.2 (license)",
+    "npm:sisteransi@1.0.5 (license)"
+  ],
+  "b00770e3c5d6a029cb104f7ac0d328c88ec684d31e8188c61ca91fcc17743cdc": [
+    "npm:styleq@0.1.3 (LICENSE)"
+  ],
+  "b09b9ccf866cc09b502d9cf4679e2461beb1469709ea0c6a30009766e10b3acf": [
+    "npm:vaul@1.1.2 (LICENSE.md)"
+  ],
+  "b175672dbc142198bae1daa4bdef4893103d75c111a949f1e33d6493d67658bf": [
+    "npm:@revenuecat/purchases-js@1.49.1 (LICENSE)",
+    "npm:react-native-purchases@10.7.0 (LICENSE)"
+  ],
+  "b1c501095de70182748cb8e8d97ac5577701a4ef3b755ba30d59fd87b24bdb0f": [
+    "npm:memoize-one@5.2.1 (LICENSE)",
+    "npm:memoize-one@6.0.0 (LICENSE)"
+  ],
+  "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1": [
+    "npm:detect-libc@2.1.2 (LICENSE)"
+  ],
+  "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681": [
+    "npm:@esbuild/aix-ppc64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/android-arm@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/android-arm64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/android-x64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/darwin-arm64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/darwin-x64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/freebsd-arm64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/freebsd-x64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/linux-arm@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/linux-arm64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/linux-ia32@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/linux-loong64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/linux-mips64el@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/linux-ppc64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/linux-riscv64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/linux-s390x@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/linux-x64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/netbsd-arm64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/netbsd-x64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/openbsd-arm64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/openbsd-x64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/openharmony-arm64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/sunos-x64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/win32-arm64@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/win32-ia32@0.28.1 (LICENSE.md)",
+    "npm:@esbuild/win32-x64@0.28.1 (LICENSE.md)",
+    "npm:esbuild@0.28.1 (LICENSE.md)"
+  ],
+  "b6be1b6c4e8c0441448a70fc6517c8d1ad62ad6a614b1fd049f74aa86c8b9820": [
+    "npm:compressible@2.0.18 (LICENSE)"
+  ],
+  "b87653fff2d44426ab5cd4723cee3b1364dc8d35a0acdf098c54689543123bf8": [
+    "npm:core-js-compat@3.50.0 (LICENSE)"
+  ],
+  "b8778b155bfde5a28b023a558753c0fa058a52bb9de35c343c250be1bbcdedab": [
+    "npm:@jridgewell/resolve-uri@3.1.2 (LICENSE)"
+  ],
+  "b87a4f179468c16de6b7c40e40d5c4fa0f93ac5950a5ca1cec22f55132ab256c": [
+    "npm:hyphenate-style-name@1.1.0 (LICENSE)"
+  ],
+  "bd134b41da59e452fb5a1d366b660886f741c87c2bf9428e93764c419fbc40f5": [
+    "npm:depd@2.0.0 (LICENSE)"
+  ],
+  "bd47ce7b88c7759630d1e2b9fcfa170a0f1fde522be09e13fb1581a79d090400": [
+    "npm:vary@1.1.2 (LICENSE)"
+  ],
+  "be635b6249bf2e3a9ab088d9be654960253291042824b62dfcf5e955625dc6fe": [
+    "npm:@react-native/debugger-frontend@0.86.3 (dist/third-party/LICENSE)"
+  ],
+  "bf9b0d665be2a689851eea667ca9f42066ea1d903b38349c51e6a44b2577680a": [
+    "npm:hasown@2.0.4 (LICENSE)"
+  ],
+  "c064f7a3e353bc1bc977f3c897941c75ef763f44f41677e0a15370ca0853d6e2": [
+    "npm:color-name@1.1.4 (LICENSE)",
+    "npm:color-name@1.1.3 (LICENSE)",
+    "npm:color-name@1.1.3 (LICENSE)"
+  ],
+  "c1476ec53119cd4c8370f91f5152ac76312a29b4fae2d49b5e0e0970fe0fa5ee": [
+    "npm:hosted-git-info@7.0.2 (LICENSE)"
+  ],
+  "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383": [
+    "npm:@types/istanbul-lib-coverage@2.0.6 (LICENSE)",
+    "npm:@types/istanbul-lib-report@3.0.3 (LICENSE)",
+    "npm:@types/istanbul-reports@3.0.4 (LICENSE)",
+    "npm:@types/node@22.20.1 (LICENSE)",
+    "npm:@types/react@19.2.18 (LICENSE)",
+    "npm:@types/react-test-renderer@19.3.0 (LICENSE)",
+    "npm:@types/yargs@17.0.35 (LICENSE)",
+    "npm:@types/yargs-parser@21.0.3 (LICENSE)"
+  ],
+  "c2ecf83f830f226f662c99d003162002c78edd8b59f1105621bdcc2c44043a7d": [
+    "npm:whatwg-url-minimum@0.1.2 (LICENSE.md)"
+  ],
+  "c358ea82eed53098b2ee0913e1de8243c69d45862e11c48614db47fd5889d947": [
+    "npm:expo-router@57.0.23 (vendor/react-helmet-async/LICENSE)"
+  ],
+  "c414dde36704bd9c8a76c7aa2921b19270ff9abeb478ea0050250d16cf29b0f6": [
+    "npm:update-browserslist-db@1.2.3 (LICENSE)"
+  ],
+  "c4b4ad3a5746f1f5249a6dd90396ec519264e1bb02e01e48a6522c48a3a97cb4": [
+    "npm:setimmediate@1.0.5 (LICENSE.txt)"
+  ],
+  "c51452ef1dfd5606c9fe266930fa6bf7e8a534d52973b6475df5bf212cad5b0a": [
+    "npm:xml2js@0.6.0 (LICENSE)"
+  ],
+  "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4": [
+    "npm:baseline-browser-mapping@2.11.10 (LICENSE.txt)",
+    "pypi:tzdata@2026.3 (tzdata-2026.3.dist-info/licenses/licenses/LICENSE_APACHE)"
+  ],
+  "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac": [
+    "npm:safe-buffer@5.2.1 (LICENSE)"
+  ],
+  "c887d1c97797646dbb216925ab44a93c6b3e7f03bbe6ef6e0f92b8b8ade63014": [
+    "npm:whatwg-fetch@3.6.20 (LICENSE)"
+  ],
+  "ca2abdf695884c77ea4b4a5b64ca7b732d9d9dbade4eebc1c2e76c53e9e3bc83": [
+    "npm:stream-buffers@2.2.0 (UNLICENSE)"
+  ],
+  "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318": [
+    "pypi:colorama@0.4.6 (colorama-0.4.6.dist-info/licenses/LICENSE.txt)"
+  ],
+  "cb992345949ccd6e8394b2cd6c465f7b897c864f845937dbf64e8997f389e164": [
+    "npm:css-select@5.2.2 (LICENSE)",
+    "npm:css-what@6.2.2 (LICENSE)",
+    "npm:domelementtype@2.3.0 (LICENSE)",
+    "npm:domhandler@5.0.3 (LICENSE)",
+    "npm:domutils@3.2.2 (LICENSE)",
+    "npm:entities@4.5.0 (LICENSE)",
+    "npm:nth-check@2.1.1 (LICENSE)"
+  ],
+  "cc06054a391f6b5dbcf6f142d2bb9d637db897746b0e6c58ed913834b581cae4": [
+    "npm:babel-plugin-react-native-web@0.21.3 (LICENSE)"
+  ],
+  "cc1dfd4dafa27271e8212cd3b274eeb3f262e40a6fdab36ddc3f9696f706f58b": [
+    "npm:mime-db@1.52.0 (LICENSE)",
+    "npm:mime-db@1.54.0 (LICENSE)"
+  ],
+  "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30": [
+    "npm:xcode@3.0.1 (LICENSE)"
+  ],
+  "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9": [
+    "npm:picomatch@2.3.2 (LICENSE)",
+    "npm:picomatch@2.3.2 (LICENSE)",
+    "npm:picomatch@4.0.7 (LICENSE)"
+  ],
+  "d34ff47ca7a39e9ee3987a03a42cce0af4f77ec280f06f3969e2c33ca350a899": [
+    "npm:css-tree@1.1.3 (LICENSE)"
+  ],
+  "d408f38ffa3355c5faec517153295338892eb0f1ea43f57874bb23c6075979b5": [
+    "npm:balanced-match@4.0.4 (LICENSE.md)"
+  ],
+  "d7d2a7786de7c7cfd96f920c6f12927d74e1d2a861ca4498bf465c3bc3f4c21c": [
+    "npm:progress@2.0.3 (LICENSE)"
+  ],
+  "d9bacb8be7c3a210dfe531bde8503eb567f51a8fdbfc438fcf7a171d7ab338d8": [
+    "npm:bplist-creator@0.1.0 (LICENSE)"
+  ],
+  "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987": [
+    "npm:nanoid@3.3.19 (LICENSE)"
+  ],
+  "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93": [
+    "npm:metro-config@0.84.5 (LICENSE)",
+    "npm:metro-runtime@0.84.5 (LICENSE)",
+    "npm:@jest/schemas@29.6.3 (LICENSE)",
+    "npm:@jest/types@29.6.3 (LICENSE)",
+    "npm:@react-native/assets-registry@0.86.3 (LICENSE)",
+    "npm:@react-native/babel-plugin-codegen@0.86.3 (LICENSE)",
+    "npm:@react-native/babel-preset@0.86.3 (LICENSE)",
+    "npm:babel-plugin-syntax-hermes-parser@0.36.0 (LICENSE)",
+    "npm:hermes-estree@0.36.0 (LICENSE)",
+    "npm:hermes-parser@0.36.0 (LICENSE)",
+    "npm:@react-native/codegen@0.86.3 (LICENSE)",
+    "npm:hermes-estree@0.36.0 (LICENSE)",
+    "npm:hermes-parser@0.36.0 (LICENSE)",
+    "npm:@react-native/community-cli-plugin@0.86.3 (LICENSE)",
+    "npm:@react-native/debugger-shell@0.86.3 (LICENSE)",
+    "npm:@react-native/dev-middleware@0.86.3 (LICENSE)",
+    "npm:@react-native/gradle-plugin@0.86.3 (LICENSE)",
+    "npm:@react-native/js-polyfills@0.86.3 (LICENSE)",
+    "npm:@react-native/metro-babel-transformer@0.86.3 (LICENSE)",
+    "npm:hermes-estree@0.36.0 (LICENSE)",
+    "npm:hermes-parser@0.36.0 (LICENSE)",
+    "npm:@react-native/metro-config@0.86.3 (LICENSE)",
+    "npm:@react-native/normalize-colors@0.86.3 (LICENSE)",
+    "npm:@react-native/virtualized-lists@0.86.3 (LICENSE)",
+    "npm:babel-plugin-react-compiler@1.0.0 (LICENSE)",
+    "npm:babel-plugin-syntax-hermes-parser@0.36.1 (LICENSE)",
+    "npm:fb-dotslash@0.5.8 (LICENSE-MIT)",
+    "npm:hermes-compiler@250829098.0.17 (LICENSE)",
+    "npm:hermes-estree@0.36.1 (LICENSE)",
+    "npm:hermes-parser@0.36.1 (LICENSE)",
+    "npm:jest-get-type@29.6.3 (LICENSE)",
+    "npm:jest-util@29.7.0 (LICENSE)",
+    "npm:jest-validate@29.7.0 (LICENSE)",
+    "npm:jest-worker@29.7.0 (LICENSE)",
+    "npm:metro@0.84.5 (LICENSE)",
+    "npm:metro-babel-transformer@0.84.5 (LICENSE)",
+    "npm:hermes-estree@0.35.0 (LICENSE)",
+    "npm:hermes-parser@0.35.0 (LICENSE)",
+    "npm:metro-cache@0.84.5 (LICENSE)",
+    "npm:metro-cache-key@0.84.5 (LICENSE)",
+    "npm:metro-config@0.84.6 (LICENSE)",
+    "npm:hermes-estree@0.35.0 (LICENSE)",
+    "npm:hermes-parser@0.35.0 (LICENSE)",
+    "npm:metro@0.84.6 (LICENSE)",
+    "npm:metro-babel-transformer@0.84.6 (LICENSE)",
+    "npm:metro-cache@0.84.6 (LICENSE)",
+    "npm:metro-cache-key@0.84.6 (LICENSE)",
+    "npm:metro-core@0.84.6 (LICENSE)",
+    "npm:metro-file-map@0.84.6 (LICENSE)",
+    "npm:metro-minify-terser@0.84.6 (LICENSE)",
+    "npm:metro-resolver@0.84.6 (LICENSE)",
+    "npm:metro-source-map@0.84.6 (LICENSE)",
+    "npm:metro-symbolicate@0.84.6 (LICENSE)",
+    "npm:metro-transform-plugins@0.84.6 (LICENSE)",
+    "npm:metro-transform-worker@0.84.6 (LICENSE)",
+    "npm:ob1@0.84.6 (LICENSE)",
+    "npm:metro-core@0.84.5 (LICENSE)",
+    "npm:metro-file-map@0.84.5 (LICENSE)",
+    "npm:metro-minify-terser@0.84.5 (LICENSE)",
+    "npm:metro-resolver@0.84.5 (LICENSE)",
+    "npm:metro-runtime@0.84.6 (LICENSE)",
+    "npm:metro-source-map@0.84.5 (LICENSE)",
+    "npm:metro-symbolicate@0.84.5 (LICENSE)",
+    "npm:metro-transform-plugins@0.84.5 (LICENSE)",
+    "npm:metro-transform-worker@0.84.5 (LICENSE)",
+    "npm:hermes-estree@0.35.0 (LICENSE)",
+    "npm:hermes-parser@0.35.0 (LICENSE)",
+    "npm:metro-config@0.84.5 (LICENSE)",
+    "npm:metro-runtime@0.84.5 (LICENSE)",
+    "npm:ob1@0.84.5 (LICENSE)",
+    "npm:pretty-format@29.7.0 (LICENSE)",
+    "npm:react@19.2.3 (LICENSE)",
+    "npm:react-devtools-core@6.1.5 (LICENSE)",
+    "npm:react-dom@19.2.3 (LICENSE)",
+    "npm:react-is@19.3.0 (LICENSE)",
+    "npm:react-native@0.86.3 (LICENSE)",
+    "npm:@react-native/normalize-colors@0.74.89 (LICENSE)",
+    "npm:babel-plugin-syntax-hermes-parser@0.36.0 (LICENSE)",
+    "npm:hermes-estree@0.36.0 (LICENSE)",
+    "npm:hermes-parser@0.36.0 (LICENSE)",
+    "npm:scheduler@0.27.0 (LICENSE)"
+  ],
+  "dbbf03317f0101fed5643cd87ca80fb769e358fa4f428445bf2315deeb23a154": [
+    "npm:abort-controller@3.0.0 (LICENSE)"
+  ],
+  "dc32a0dee275e0a9aeffbc974dbf4899a30dcdc2e5ffa8934aecb69261065864": [
+    "npm:proc-log@4.2.0 (LICENSE)"
+  ],
+  "dc6d4961d8b6ee747231582ae9c53ce1d66bf76bc9f5a28f554c0e97210953bf": [
+    "npm:@ungap/structured-clone@1.4.0 (LICENSE)"
+  ],
+  "dcb94ff9b1e037a847bc20589dc81a1066d041fd4c16deb18b0fa968c66cf395": [
+    "npm:http-errors@2.0.1 (LICENSE)"
+  ],
+  "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf": [
+    "pypi:starlette@1.6.0 (starlette-1.6.0.dist-info/licenses/LICENSE.md)"
+  ],
+  "dd5f97aa25431e25fea6654f12f4ce167dc19b3148ab515cc271aa8efe6eb0be": [
+    "npm:nullthrows@1.1.1 (LICENSE)"
+  ],
+  "de4d1f2d2ad5ad0cfd1657a106476b31cb5db5ef9d1ff842b237c0c81f0c8a23": [
+    "npm:argparse@2.0.1 (LICENSE)"
+  ],
+  "df408d2e27f1df207f97556db32aba3921883ebce365ada1c354d89ad3114a96": [
+    "npm:getenv@2.0.0 (LICENSE.md)"
+  ],
+  "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46": [
+    "pypi:tzdata@2026.3 (tzdata-2026.3.dist-info/licenses/LICENSE)"
+  ],
+  "e05b1eaf5b5f99b7ad75cd1f38858ff9a311780b97715ead67936d60bf96aa7e": [
+    "npm:signal-exit@3.0.7 (LICENSE.txt)"
+  ],
+  "e1898814043cb5500483d9c8517edda824b352f696d35e5043fcfb537c221531": [
+    "npm:stacktrace-parser@0.1.11 (LICENSE)"
+  ],
+  "e21b0992cd8a2e8bf3e5f2f1b392daccab5d27386fcf2bc25e336c4161b5d1f9": [
+    "npm:throat@5.0.0 (LICENSE)"
+  ],
+  "e368bc4263b466cf98c225af15e300549e00da8859416a4536109e9654d434a8": [
+    "npm:xmlbuilder@11.0.1 (LICENSE)",
+    "npm:xmlbuilder@15.1.1 (LICENSE)"
+  ],
+  "e3a956681ee067f971ac413994171b3d90ca801ec6324e76c9c55366cfe31cb0": [
+    "npm:gensync@1.0.0-beta.2 (LICENSE)"
+  ],
+  "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118": [
+    "pypi:psycopg@3.3.4 (psycopg-3.3.4.dist-info/licenses/LICENSE.txt)",
+    "pypi:psycopg-binary@3.3.4 (psycopg_binary-3.3.4.dist-info/licenses/LICENSE.txt)"
+  ],
+  "e3b44af066615de2ea48d18d852d0762f18c0b2efcea714fa48a6f729d405b85": [
+    "npm:bytes@3.1.2 (LICENSE)"
+  ],
+  "e5ff3c23c110e494cd7d736c10fd96d462457bafeca310840db6527298c7d46b": [
+    "pypi:greenlet@3.5.5 (greenlet-3.5.5.dist-info/licenses/LICENSE.PSF)"
+  ],
+  "e6e972dba808fb9d80863fe90ca222a47710cb850f6e6e2af95cdc0d022f79bd": [
+    "npm:iceberg-js@0.8.1 (LICENSE)"
+  ],
+  "e6fdf7ac2af533b4436d99aa75df32aa78690510f7d68a3e73e8576967298d2f": [
+    "npm:strict-uri-encode@2.0.0 (license)"
+  ],
+  "e7d1fee7347ffddccc5fd03327ffdb50f8c112be0d5016d62388a92c4ae6e7a9": [
+    "npm:to-regex-range@5.0.1 (LICENSE)"
+  ],
+  "e80373b1ed0f33cecc47173b4b0c6afe0d0318b32dbd84116a1a957e3f7f43a8": [
+    "npm:asap@2.0.6 (LICENSE.md)"
+  ],
+  "e862bb5b904fb5513c3e14288d7a25a12eb0ecc7847a0a965d310e9a955e7cb9": [
+    "pypi:sqlalchemy@2.0.52 (sqlalchemy-2.0.52.dist-info/licenses/LICENSE)"
+  ],
+  "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7": [
+    "pypi:certifi@2026.7.22 (certifi-2026.7.22.dist-info/licenses/LICENSE)"
+  ],
+  "e9b0e94f628e00b5ed98046cfa041696ff89eebbbdd54108ee350625bc6d0363": [
+    "npm:big-integer@1.6.52 (LICENSE)"
+  ],
+  "ed7a9a0f74e43951b2520efe1a4349cb9ed5f3dff0b0f268e2e51a4d38df7ea4": [
+    "npm:decode-uri-component@0.2.2 (license)"
+  ],
+  "efd6f9e708b909de1a18730b90fb6394a3125680ac2f98a87cd23d1a0c93afa2": [
+    "npm:makeerror@1.0.12 (license)",
+    "npm:tmpl@1.0.5 (license)"
+  ],
+  "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371": [
+    "pypi:uvicorn@0.52.1 (uvicorn-0.52.1.dist-info/licenses/LICENSE.md)"
+  ],
+  "f1ae22eddd3a96c3b7b8a494ef03749ae6a1e19574bacc9c195d83c916de09e2": [
+    "npm:react-native-gesture-handler@3.3.0 (LICENSE)",
+    "npm:react-native-reanimated@4.5.1 (LICENSE)"
+  ],
+  "f1d42ae4dd4e847f03e57241ab62538f35580ce533acf1d8274426283b01151c": [
+    "npm:marky@1.3.0 (LICENSE)"
+  ],
+  "f3e1645267f7dd77ee6545283cc1766e5883e8fb3b5088fe2cfb995defbb3dde": [
+    "npm:validate-npm-package-name@5.0.1 (LICENSE)"
+  ],
+  "f58943cb354fb2707fea2f7b26b04e6014ddb56835cdfd414c9d2c6c59165b64": [
+    "npm:ci-info@3.9.0 (LICENSE)",
+    "npm:ci-info@3.9.0 (LICENSE)"
+  ],
+  "f5afc95c69e116ea6b1755f91a8763f53eadb78b4f1582a08d2d18586a03a117": [
+    "npm:exponential-backoff@3.1.3 (LICENSE)"
+  ],
+  "f5c7a4d527258e11fdfe3d84eb73cd14fe6d64224ef051e59f6ee21fe378800c": [
+    "npm:react-native-safe-area-context@5.7.0 (LICENSE)"
+  ],
+  "f63ff0e4e239244aa79280da2dd4811a0469e5e201caf5cbc0d97c3a1dff8e82": [
+    "npm:node-forge@1.4.0 (LICENSE)"
+  ],
+  "f655e6291356ec0de7a8f0e69f294961a2cea86678ec94588be1e6a492e278ab": [
+    "npm:range-parser@1.2.1 (LICENSE)"
+  ],
+  "f657f99d3fb9647db92628e96007aabb46e5f04f33e49999075aab8e250ca7ce": [
+    "npm:fbjs@3.0.5 (LICENSE)",
+    "npm:fbjs-css-vars@1.0.2 (LICENSE)",
+    "npm:invariant@2.2.4 (LICENSE)"
+  ],
+  "f65c5d9f22a317b2a10803bd1868461ce6499c2ed7217bc80c0cc772a748789c": [
+    "npm:graceful-fs@4.2.11 (LICENSE)"
+  ],
+  "f81a99a72ec5e64e3f74fad0db3df27ab69ab0edd4878368f83379d3e4fc9313": [
+    "npm:@expo-google-fonts/material-symbols@0.4.48 (LICENSE)"
+  ],
+  "f855c605d6ba3587ef8ba49a428cec58711964547c5364f1dade33ed23315361": [
+    "npm:agent-cli-detector@0.1.7 (LICENSE)",
+    "npm:sandbox-cli-detector@0.2.0 (LICENSE)"
+  ],
+  "f961d81b4027c179ccd9200e72fa141f8c0575c1f3c93593f36645dc72bf5216": [
+    "npm:react-native-web@0.21.3 (LICENSE)"
+  ],
+  "f9a72660f8b9b8a9ae3773ecaab64f61d1412a4f1c9eb945e455d22608fdc348": [
+    "npm:warn-once@0.1.1 (LICENSE)"
+  ],
+  "fb3ca4a837f5779e83cef89b78253a8949cfb9429c340309f62d0465ec6610b4": [
+    "npm:@expo/dom-webview@57.0.1 (LICENSE)",
+    "npm:@expo/expo-modules-macros-plugin@0.6.1 (LICENSE)",
+    "npm:@expo/image-utils@0.11.5 (LICENSE)",
+    "npm:@expo/inline-modules@0.1.7 (LICENSE)",
+    "npm:@expo/log-box@57.0.4 (LICENSE)",
+    "npm:@expo/metro-file-map@57.0.3 (LICENSE)",
+    "npm:@expo/metro-runtime@57.0.16 (LICENSE)",
+    "npm:@expo/osascript@2.7.1 (LICENSE)",
+    "npm:@expo/plist@0.8.1 (LICENSE)",
+    "npm:babel-preset-expo@57.0.13 (LICENSE)",
+    "npm:expo@57.0.25 (LICENSE)",
+    "npm:expo-asset@57.0.18 (LICENSE)",
+    "npm:expo-constants@57.0.19 (LICENSE)",
+    "npm:expo-dev-client@57.0.19 (LICENSE)",
+    "npm:expo-dev-launcher@57.0.20 (LICENSE)",
+    "npm:expo-dev-menu@57.0.18 (LICENSE)",
+    "npm:expo-dev-menu-interface@57.0.0 (LICENSE)",
+    "npm:expo-file-system@57.0.7 (LICENSE)",
+    "npm:expo-font@57.0.4 (LICENSE)",
+    "npm:expo-glass-effect@57.0.4 (LICENSE)",
+    "npm:expo-json-utils@57.0.2 (LICENSE)",
+    "npm:expo-keep-awake@57.0.2 (LICENSE)",
+    "npm:expo-linking@57.0.11 (LICENSE)",
+    "npm:expo-manifests@57.0.2 (LICENSE)",
+    "npm:expo-modules-autolinking@57.0.13 (LICENSE)",
+    "npm:expo-modules-core@57.0.19 (LICENSE)",
+    "npm:expo-modules-jsi@57.1.1 (LICENSE)",
+    "npm:expo-secure-store@57.0.4 (LICENSE)",
+    "npm:expo-server@57.0.3 (LICENSE)",
+    "npm:expo-status-bar@57.0.1 (LICENSE)",
+    "npm:expo-symbols@57.0.3 (LICENSE)",
+    "npm:expo-updates-interface@57.0.2 (LICENSE)",
+    "npm:@expo/cli@57.0.27 (LICENSE)",
+    "npm:@expo/router-server@57.0.11 (LICENSE)"
+  ],
+  "fd3a263fe19ed8faa9068b43abaebafc02c77897b0c6fc09abc04bb592e5f16e": [
+    "npm:caniuse-lite@1.0.30001806 (LICENSE)"
+  ],
+  "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5": [
+    "pypi:httpcore@1.0.9 (httpcore-1.0.9.dist-info/licenses/LICENSE.md)"
+  ],
+  "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d": [
+    "pypi:annotated-types@0.8.0 (annotated_types-0.8.0.dist-info/licenses/LICENSE)"
+  ],
+  "fe99d9a94ec7edc64a9767701f830f66e08239b000d653a359d66e640289ed0c": [
+    "npm:defaults@1.0.4 (LICENSE)"
+  ],
+  "ffd8b33b354585f4ce119f19c53728281e48a97b074491eb6bf6d5c5ff305272": [
+    "npm:lodash.debounce@4.0.8 (LICENSE)",
+    "npm:lodash.throttle@4.1.1 (LICENSE)"
+  ],
+  "ffe370c8785b0b688d954977ce8dc52e19e5f17962cc5f80009c85eba4925d56": [
+    "npm:destroy@1.2.0 (LICENSE)"
+  ],
+  "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf": [
+    "pypi:annotated-doc@0.0.5 (annotated_doc-0.0.5.dist-info/licenses/LICENSE)"
+  ]
+}

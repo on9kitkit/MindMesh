@@ -1,0 +1,2 @@
+"""StudyRoom backend application package."""
+

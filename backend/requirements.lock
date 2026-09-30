@@ -1,0 +1,32 @@
+# Runtime-only Python 3.11 lock for the backend image.
+# Development tools remain in pyproject.toml's dev extra.
+alembic==1.19.1
+annotated-doc==0.0.5
+annotated-types==0.8.0
+anyio==4.14.2
+certifi==2026.7.22
+cffi==2.1.1 ; platform_python_implementation != 'PyPy'
+click==8.4.2
+colorama==0.4.6 ; sys_platform == 'win32'
+cryptography==50.0.0
+fastapi==0.141.1
+greenlet==3.5.5 ; platform_machine == 'AMD64' or platform_machine == 'WIN32' or platform_machine == 'aarch64' or platform_machine == 'amd64' or platform_machine == 'ppc64le' or platform_machine == 'win32' or platform_machine == 'x86_64'
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+idna==3.18
+mako==1.4.1
+markupsafe==3.0.3
+psycopg==3.3.4
+psycopg-binary==3.3.4 ; implementation_name != 'pypy'
+pycparser==3.0 ; implementation_name != 'PyPy' and platform_python_implementation != 'PyPy'
+pydantic==2.13.4
+pydantic-core==2.46.4
+pyjwt==2.13.0
+sqlalchemy==2.0.52
+starlette==1.6.0
+typing-extensions==4.16.0
+typing-inspection==0.4.4
+tzdata==2026.3 ; sys_platform == 'win32'
+uvicorn==0.52.1
+websockets==16.1.1

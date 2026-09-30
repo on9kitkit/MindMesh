@@ -1,0 +1,36 @@
+# Local secrets and configuration; examples remain public.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+
+# Installed dependencies, native generation and build output.
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.expo/
+dist/
+build/
+coverage/
+mobile/ios/
+mobile/android/
+Pods/
+DerivedData/
+*.xcresult/
+
+# Private runtime data, editor state and diagnostic output.
+*.db
+*.sqlite*
+*.dump
+*.log
+.DS_Store
+.idea/
+.vscode/
