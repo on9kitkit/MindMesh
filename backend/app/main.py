@@ -498,7 +498,7 @@ def create_app(
                 owned_account_deletion_service.close()
 
     app = FastAPI(
-        title="StudyRoom API",
+        title="MindMesh API",
         version="0.1.0",
         lifespan=lifespan,
     )
@@ -618,7 +618,7 @@ def create_app(
     ) -> JSONResponse:
         return _error_response(
             "profile_required",
-            "Complete your StudyRoom profile before using rooms.",
+            "Complete your MindMesh profile before using rooms.",
             409,
         )
 

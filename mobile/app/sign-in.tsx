@@ -30,7 +30,7 @@ export default function SignInRoute() {
   if (state.status === "signed-in") {
     return (
       <StudioScreen>
-        <StudioText variant="eyebrow">STUDYROOM</StudioText>
+        <StudioText variant="eyebrow">MINDMESH</StudioText>
         <StudioText style={{ marginTop: 6 }} variant="title">
           Opening your current session...
         </StudioText>
@@ -41,7 +41,7 @@ export default function SignInRoute() {
   if (state.status === "suspended") {
     return (
       <StudioScreen>
-        <StudioText variant="eyebrow">STUDYROOM</StudioText>
+        <StudioText variant="eyebrow">MINDMESH</StudioText>
         <StudioText style={{ marginTop: 6 }} variant="title">
           Account unavailable.
         </StudioText>
@@ -97,7 +97,7 @@ export default function SignInRoute() {
 
   return (
     <StudioScreen>
-      <StudioText variant="eyebrow">STUDYROOM</StudioText>
+      <StudioText variant="eyebrow">MINDMESH</StudioText>
       <StudioText style={{ marginTop: 6 }} variant="title">
         Welcome back.
       </StudioText>

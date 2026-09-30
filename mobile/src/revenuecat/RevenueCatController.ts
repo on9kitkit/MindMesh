@@ -409,13 +409,13 @@ export class RevenueCatController {
     if (data === null || this.desiredUserId !== data.appUserId) {
       return Promise.resolve({
         status: "blocked",
-        message: "StudyRoom Pro is still loading.",
+        message: "MindMesh Pro is still loading.",
       });
     }
     if (data.isPro) {
       return Promise.resolve({
         status: "blocked",
-        message: "StudyRoom Pro is already active.",
+        message: "MindMesh Pro is already active.",
       });
     }
     if (data.offering === null || data.offeringStatus === "missing") {
@@ -425,7 +425,7 @@ export class RevenueCatController {
         appUserId: data.appUserId,
         data,
         code: "offering-unavailable",
-        message: "The configured StudyRoom Pro offering is unavailable.",
+        message: "The configured MindMesh Pro offering is unavailable.",
       });
       return Promise.resolve({ status: "failed" });
     }
@@ -436,7 +436,7 @@ export class RevenueCatController {
         appUserId: data.appUserId,
         data,
         code: "package-unavailable",
-        message: "The StudyRoom Pro offering has no available packages.",
+        message: "The MindMesh Pro offering has no available packages.",
       });
       return Promise.resolve({ status: "failed" });
     }
@@ -521,7 +521,7 @@ export class RevenueCatController {
             appUserId: userId,
             data: latestData,
             code: "offering-unavailable",
-            message: "The configured StudyRoom Pro offering is unavailable.",
+            message: "The configured MindMesh Pro offering is unavailable.",
           });
           return { status: "failed" };
         case "purchased":
@@ -567,7 +567,7 @@ export class RevenueCatController {
           data: updatedData,
           notice: {
             tone: "neutral",
-            message: "No StudyRoom Pro purchase was found to restore.",
+            message: "No MindMesh Pro purchase was found to restore.",
           },
         });
         return { status: "completed", isPro: false };
@@ -579,7 +579,7 @@ export class RevenueCatController {
         data: updatedData,
         code: "entitlement-not-active",
         message:
-          "The purchase finished, but the StudyRoom Pro entitlement is not active yet.",
+          "The purchase finished, but the MindMesh Pro entitlement is not active yet.",
       });
       return { status: "failed" };
     }
@@ -589,7 +589,7 @@ export class RevenueCatController {
       data: updatedData,
       notice: {
         tone: "success",
-        message: "StudyRoom Pro is active.",
+        message: "MindMesh Pro is active.",
       },
     });
     return { status: "completed", isPro: true };
@@ -618,7 +618,7 @@ export class RevenueCatController {
     if (data === null || this.desiredUserId !== data.appUserId) {
       return Promise.resolve({
         status: "blocked",
-        message: "StudyRoom Pro is still loading.",
+        message: "MindMesh Pro is still loading.",
       });
     }
 
@@ -656,10 +656,10 @@ export class RevenueCatController {
         capability: this.dependencies.adapter.capability,
         data: updatedData,
         notice: updatedData.isPro
-          ? { tone: "success", message: "StudyRoom Pro was restored." }
+          ? { tone: "success", message: "MindMesh Pro was restored." }
           : {
               tone: "neutral",
-              message: "No StudyRoom Pro purchase was found to restore.",
+              message: "No MindMesh Pro purchase was found to restore.",
             },
       });
       return { status: "completed", isPro: updatedData.isPro };

@@ -2,6 +2,10 @@
 
 ## 30 September 2026
 
+- Renamed the app's own visible branding to MindMesh / MindMesh Pro and its configured display name to MindMesh Preview, preserving technical identities and generic study-room terminology.
+- Normalized legacy branding in subscription display text and retained impersonation protection for the new service names alongside old aliases.
+- Rechecked strict TypeScript and 606 mobile tests (all pass); no dependency, schema, native or provider changes.
+
 - Owner confirmed contributor permission and authorized a fresh public GitHub repository, initial commit and push for the music-free snapshot.
 - Updated publication-status and rights-attestation wording only; no application source, dependency pin, migration or original workspace changed. Devpost submission and final media remain separate.
 

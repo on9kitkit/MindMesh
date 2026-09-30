@@ -1,4 +1,5 @@
 import { NativeModules, Platform } from "react-native";
+import { mindMeshProductCopy } from "./brandCopy";
 import type {
   CustomerInfo,
   PurchasesEntitlementInfo,
@@ -62,8 +63,8 @@ function sanitizeOffering(offering: PurchasesOffering): RevenueCatOffering {
     packages: offering.availablePackages.map((availablePackage) => ({
       identifier: availablePackage.identifier,
       productIdentifier: availablePackage.product.identifier,
-      title: availablePackage.product.title,
-      description: availablePackage.product.description,
+      title: mindMeshProductCopy(availablePackage.product.title),
+      description: mindMeshProductCopy(availablePackage.product.description),
       price: availablePackage.product.priceString,
       period: availablePackage.product.subscriptionPeriod,
     })),

@@ -115,7 +115,7 @@ test("profile bootstrap failure cannot overwrite a valid authenticated session",
   const failed = authReducer(syncing, {
     type: "PROFILE_BOOTSTRAP_FAILED",
     userId: user.id,
-    message: "Could not reach the StudyRoom server.",
+    message: "Could not reach the MindMesh server.",
   });
 
   assert.deepEqual(failed, {
@@ -123,7 +123,7 @@ test("profile bootstrap failure cannot overwrite a valid authenticated session",
     user: authenticatedUser,
     profileBootstrap: {
       status: "recoverable-error",
-      message: "Could not reach the StudyRoom server.",
+      message: "Could not reach the MindMesh server.",
     },
   });
   assert.deepEqual(
@@ -142,7 +142,7 @@ test("profile bootstrap failure can be retried without changing identity", () =>
     user: authenticatedUser,
     profileBootstrap: {
       status: "recoverable-error",
-      message: "Could not reach the StudyRoom server.",
+      message: "Could not reach the MindMesh server.",
     },
   } as const;
 
@@ -194,7 +194,7 @@ test("suspension is explicit and sign-out can clear it", () => {
   );
   const suspended = authReducer(authenticated, {
     type: "ACCOUNT_SUSPENDED",
-    message: "Your StudyRoom account is currently unavailable.",
+    message: "Your MindMesh account is currently unavailable.",
   });
   const authenticatedUser =
     authenticated.status === "signed-in"
@@ -202,7 +202,7 @@ test("suspension is explicit and sign-out can clear it", () => {
       : assert.fail("authentication should be signed in");
   assert.deepEqual(suspended, {
     status: "suspended",
-    message: "Your StudyRoom account is currently unavailable.",
+    message: "Your MindMesh account is currently unavailable.",
     user: authenticatedUser,
   });
   assert.deepEqual(authReducer(suspended, { type: "SIGNED_OUT" }), {

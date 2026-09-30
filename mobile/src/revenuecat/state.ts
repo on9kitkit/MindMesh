@@ -88,13 +88,13 @@ export function safeRevenueCatError(
   if (operation === "offering") {
     return {
       code: "offering-unavailable",
-      message: "The StudyRoom Pro offering could not be loaded. Please try again.",
+      message: "The MindMesh Pro offering could not be loaded. Please try again.",
     };
   }
   if (operation === "customer-info" || operation === "identity") {
     return {
       code: "customer-info-unavailable",
-      message: "Your StudyRoom Pro status could not be loaded. Please try again.",
+      message: "Your MindMesh Pro status could not be loaded. Please try again.",
     };
   }
   if (operation === "restore") {

@@ -95,7 +95,7 @@ export default function HomeRoute() {
   if (authState.status === "initializing") {
     return (
       <StudioScreen>
-        <StudioText tone="primary" variant="eyebrow">STUDYROOM</StudioText>
+        <StudioText tone="primary" variant="eyebrow">MINDMESH</StudioText>
         <StudioText style={{ marginTop: theme.spacing.xs }} variant="title">
           Restoring your session...
         </StudioText>
@@ -106,7 +106,7 @@ export default function HomeRoute() {
   if (authState.status !== "signed-in") {
     return (
       <StudioScreen>
-        <StudioText tone="primary" variant="eyebrow">STUDYROOM</StudioText>
+        <StudioText tone="primary" variant="eyebrow">MINDMESH</StudioText>
         <StudioText style={{ marginTop: theme.spacing.xs }} variant="title">
           Returning to sign in...
         </StudioText>
@@ -252,7 +252,7 @@ export default function HomeRoute() {
 
   return (
     <StudioScreen>
-      <StudioText tone="primary" variant="eyebrow">STUDYROOM</StudioText>
+      <StudioText tone="primary" variant="eyebrow">MINDMESH</StudioText>
       <StudioText style={{ marginTop: theme.spacing.xs }} variant="title">
         Make revision a team sport.
       </StudioText>
@@ -439,8 +439,8 @@ export default function HomeRoute() {
             title="Standard Room"
           />
           <StudioChoiceRow
-            accessibilityLabel={`Large Room. ${isPro ? "StudyRoom Pro" : "StudyRoom Pro required"}. Up to 20 members`}
-            description={isPro ? "StudyRoom Pro · up to 20 members" : "StudyRoom Pro required · up to 20 members"}
+            accessibilityLabel={`Large Room. ${isPro ? "MindMesh Pro" : "MindMesh Pro required"}. Up to 20 members`}
+            description={isPro ? "MindMesh Pro · up to 20 members" : "MindMesh Pro required · up to 20 members"}
             disabled={capacityControlsDisabled}
             onPress={() => handleCapacitySelection("large")}
             selected={capacityPreset === "large"}
@@ -496,12 +496,12 @@ export default function HomeRoute() {
 
       <StudioCard style={{ marginTop: theme.spacing.md }}>
         <StudioStack>
-          <StudioText variant="heading">StudyRoom Pro</StudioText>
+          <StudioText variant="heading">MindMesh Pro</StudioText>
           <StudioText color={theme.colors.mutedText}>
-            Advanced StudyRoom Pro features are being introduced progressively.
+            Advanced MindMesh Pro features are being introduced progressively.
           </StudioText>
           <StudioButton
-            label="Explore StudyRoom Pro"
+            label="Explore MindMesh Pro"
             onPress={() => router.push("/pro")}
             variant="secondary"
           />
@@ -512,7 +512,7 @@ export default function HomeRoute() {
         <StudioStack>
           <StudioText variant="heading">Account & settings</StudioText>
           <StudioText color={theme.colors.mutedText}>
-            {authState.user.displayName ?? "StudyRoom member"}
+            {authState.user.displayName ?? "MindMesh member"}
           </StudioText>
           <StudioButton
             label="Open Account & settings"

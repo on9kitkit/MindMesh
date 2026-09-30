@@ -340,7 +340,7 @@ test("network failures remain readable and retryable", async () => {
     await new HomeRoomRequestCoordinator().createRoom(harness.dependencies),
     {
       status: "failed",
-      message: "Could not reach the StudyRoom server.",
+      message: "Could not reach the MindMesh server.",
     },
   );
 });
@@ -349,12 +349,12 @@ test("premium gate failures remain readable and retryable", async () => {
   const cases = [
     [
       "pro_required",
-      "StudyRoom Pro could not be verified for a Large Room. Open StudyRoom Pro to refresh your status.",
+      "MindMesh Pro could not be verified for a Large Room. Open MindMesh Pro to refresh your status.",
       403,
     ],
     [
       "premium_verification_unavailable",
-      "We couldn't verify StudyRoom Pro right now. Try again shortly.",
+      "We couldn't verify MindMesh Pro right now. Try again shortly.",
       503,
     ],
   ] as const;
@@ -410,7 +410,7 @@ test("recovery failure exposes a session Retry state", () => {
     {
       status: "recoverable-error",
       source: "session",
-      message: "Could not reach the StudyRoom server.",
+      message: "Could not reach the MindMesh server.",
     },
   );
 });

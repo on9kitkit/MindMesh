@@ -2005,7 +2005,7 @@ test("real Pro route preserves RevenueCat states and actions in both palettes", 
     period: "P1M",
     price: "£3.99",
     productIdentifier: "studyroom_monthly",
-    title: "StudyRoom Pro Monthly",
+    title: "MindMesh Pro Monthly",
   };
   const annualPackage = {
     description: "Annual access",
@@ -2013,7 +2013,7 @@ test("real Pro route preserves RevenueCat states and actions in both palettes", 
     period: "P1Y",
     price: "£39.99",
     productIdentifier: "studyroom_annual",
-    title: "StudyRoom Pro Annual",
+    title: "MindMesh Pro Annual",
   };
   const baseData: RevenueCatReadyData = {
     appUserId: ROOM_ID,
@@ -2062,7 +2062,7 @@ test("real Pro route preserves RevenueCat states and actions in both palettes", 
     offering: null,
     offeringStatus: "missing",
   });
-  const longTitle = "StudyRoom Pro " + "Long package title ".repeat(12);
+  const longTitle = "MindMesh Pro " + "Long package title ".repeat(12);
   const longData = makeData({
     offering: {
       identifier: "default",
@@ -2094,7 +2094,7 @@ test("real Pro route preserves RevenueCat states and actions in both palettes", 
     ["pro", { capability: nativeCapability, data: proData, notice: null, status: "ready" }],
     ["renewing-pro", { capability: nativeCapability, data: renewingProData, notice: null, status: "ready" }],
     ["invalid-expiry-pro", { capability: nativeCapability, data: invalidExpiryProData, notice: null, status: "ready" }],
-    ["ready-notice", { capability: nativeCapability, data: freeData, notice: { message: "No StudyRoom Pro purchase is active.", tone: "neutral" }, status: "ready" }],
+    ["ready-notice", { capability: nativeCapability, data: freeData, notice: { message: "No MindMesh Pro purchase is active.", tone: "neutral" }, status: "ready" }],
     ["empty", { capability: nativeCapability, data: emptyData, notice: null, status: "ready" }],
     ["missing", { capability: nativeCapability, data: missingData, notice: null, status: "ready" }],
     ["purchasing", { capability: nativeCapability, data: freeData, status: "purchasing" }],
@@ -2138,7 +2138,7 @@ test("real Pro route preserves RevenueCat states and actions in both palettes", 
       assert.ok(textStyles.some((style) => style.color === theme.colors.mutedText));
     }
     const title = loaded.capture.textProps.find(
-      (props) => props.children === "StudyRoom Pro" || props.children === "Returning to sign in...",
+      (props) => props.children === "MindMesh Pro" || props.children === "Returning to sign in...",
     );
     assert.ok(title);
     const titleStyle = flattenStyle(title.style);
@@ -2227,7 +2227,7 @@ test("real Pro route preserves RevenueCat states and actions in both palettes", 
       const bindings = newBindings(revenueCatState);
       resetCapture(loaded.capture);
       const markup = renderPro(mode, bindings);
-      assert.match(markup, /StudyRoom Pro/);
+      assert.match(markup, /MindMesh Pro/);
       assertProPalette(mode);
       assertNoProRenderActions(bindings);
       assert.ok(textByChildren(loaded.capture, expectedAccessLabels[name]));
@@ -2279,7 +2279,7 @@ test("real Pro route preserves RevenueCat states and actions in both palettes", 
         assert.match(markup, /£39\.99/);
         assert.match(markup, /1 year/);
         const packageChildren = loaded.capture.textProps.map((props) => String(props.children));
-        assert.ok(packageChildren.indexOf("StudyRoom Pro Monthly") < packageChildren.indexOf("StudyRoom Pro Annual"));
+        assert.ok(packageChildren.indexOf("MindMesh Pro Monthly") < packageChildren.indexOf("MindMesh Pro Annual"));
       }
       if (name === "pro") {
         assert.match(markup, /Active until/);
@@ -2304,7 +2304,7 @@ test("real Pro route preserves RevenueCat states and actions in both palettes", 
         assert.match(markup, /This offering has no available packages\./);
       }
       if (name === "missing") {
-        assert.match(markup, /The configured StudyRoom Pro offering is unavailable\./);
+        assert.match(markup, /The configured MindMesh Pro offering is unavailable\./);
       }
       if (name === "purchasing") {
         const pending = textByChildren(loaded.capture, "The RevenueCat paywall is open.");
@@ -2315,7 +2315,7 @@ test("real Pro route preserves RevenueCat states and actions in both palettes", 
         assert.equal(pending.accessibilityLiveRegion, "polite");
       }
       if (name === "ready-notice") {
-        const notice = textByChildren(loaded.capture, "No StudyRoom Pro purchase is active.");
+        const notice = textByChildren(loaded.capture, "No MindMesh Pro purchase is active.");
         const noticeStyle = flattenStyle(notice.style);
         assert.equal(notice.accessibilityLiveRegion, "polite");
         assert.equal(notice.accessibilityRole, undefined);
@@ -2347,7 +2347,7 @@ test("real Pro route preserves RevenueCat states and actions in both palettes", 
         const priceStyle = flattenStyle(textByChildren(loaded.capture, "£123456789.99 per month").style);
         assert.equal(priceStyle.flexShrink, 1);
         const packageChildren = loaded.capture.textProps.map((props) => String(props.children));
-        assert.ok(packageChildren.indexOf(longTitle) < packageChildren.indexOf("StudyRoom Pro Annual"));
+        assert.ok(packageChildren.indexOf(longTitle) < packageChildren.indexOf("MindMesh Pro Annual"));
       }
     }
 
@@ -2576,7 +2576,7 @@ test("real auth callback route preserves progress, session-aware errors, and eff
       expectMuted: false,
     });
     assertNoAuthRenderActions(signedInErrorBindings, loaded.capture);
-    invokeButton(buttonByLabel(loaded.capture, "Continue to StudyRoom"));
+    invokeButton(buttonByLabel(loaded.capture, "Continue to MindMesh"));
     assert.equal(signedInErrorBindings.actions.clearAuthCallbackErrorCalls, 1);
     assert.deepEqual(signedInErrorBindings.actions.routerReplaces, ["/"]);
   }
@@ -2594,7 +2594,7 @@ test("real account/help routes render both palettes with inert sensitive boundar
       accountBindings,
     );
     assert.match(accountMarkup, /Account &amp; settings|Account & settings/);
-    assert.match(accountMarkup, /StudyRoom member|Account learner/);
+    assert.match(accountMarkup, /MindMesh member|Account learner/);
     assertAccountHelpPalette(loaded.capture, mode, { expectPrimary: false });
     const deleteButton = buttonByLabel(loaded.capture, "Delete Account");
     const deleteStyle = flattenStyle(deleteButton.style);
@@ -2625,12 +2625,12 @@ test("real account/help routes render both palettes with inert sensitive boundar
       .replace(/&amp;/gu, "&")
       .replace(/\s+/gu, " ");
     for (const paragraph of [
-      "StudyRoom uses your Supabase identity, email, authentication session, display name, room memberships, quiz participation, answers, results, timestamps, and necessary service metadata. RevenueCat and the store handle purchase and entitlement records used for StudyRoom Pro.",
+      "MindMesh uses your Supabase identity, email, authentication session, display name, room memberships, quiz participation, answers, results, timestamps, and necessary service metadata. RevenueCat and the store handle purchase and entitlement records used for MindMesh Pro.",
       "We use this information to authenticate you, run invite-only rooms, calculate session results, provide subscription access, operate the service, and respond to support or safety concerns.",
-      "StudyRoom does not currently collect location, contacts, photos, advertising IDs, direct messages, chat, or public profiles. Room participants see display names and the room or quiz state needed for multiplayer. Exact answers and feedback stay viewer-private. Your own bounded practice summary may combine your still-retained results from previous rooms; there is no public performance directory.",
-      "When you are signed in, Account & settings can calculate your own marks and topic counts on demand from finished adaptive GCSE sessions you participated in, including previous rooms you have left or that closed. It shows accuracy only for graded answers, separately counts unanswered and ungraded questions, and may include exact repeats. This creates no separate saved analytics profile. Existing room-data purge or account deletion can remove these source results, so the summary is not a lifetime history. These sampled StudyRoom results are not an AQA grade or full-syllabus assessment.",
+      "MindMesh does not currently collect location, contacts, photos, advertising IDs, direct messages, chat, or public profiles. Room participants see display names and the room or quiz state needed for multiplayer. Exact answers and feedback stay viewer-private. Your own bounded practice summary may combine your still-retained results from previous rooms; there is no public performance directory.",
+      "When you are signed in, Account & settings can calculate your own marks and topic counts on demand from finished adaptive GCSE sessions you participated in, including previous rooms you have left or that closed. It shows accuracy only for graded answers, separately counts unanswered and ungraded questions, and may include exact repeats. This creates no separate saved analytics profile. Existing room-data purge or account deletion can remove these source results, so the summary is not a lifetime history. These sampled MindMesh results are not an AQA grade or full-syllabus assessment.",
       "Generating an adaptive GCSE quiz sends the selected subject, topic, mark budget, and a bounded list of recent question prompts to OpenAI to reduce repetition. Marking a written answer sends the question, any source extract, the hidden marking rubric, and the student's answer.",
-      "You can start account deletion from Account & settings. StudyRoom removes or anonymizes local account data under its current deletion contract and schedules linked provider cleanup. Deleting StudyRoom does not cancel an App Store or Google Play subscription. Current retention periods are not yet automated.",
+      "You can start account deletion from Account & settings. MindMesh removes or anonymizes local account data under its current deletion contract and schedules linked provider cleanup. Deleting MindMesh does not cancel an App Store or Google Play subscription. Current retention periods are not yet automated.",
     ]) {
       assert.ok(normalizedPrivacy.includes(paragraph), `Privacy paragraph missing: ${paragraph}`);
     }
@@ -2799,7 +2799,7 @@ test("real account/help routes render both palettes with inert sensitive boundar
       assert.deepEqual(accountDependencyCalls, beforeCalls);
     };
     accountPresentation({ status: "idle" }, true);
-    assert.match(loaded.capture.textProps.map((props) => String(props.children)).join(" "), /StudyRoom Pro/);
+    assert.match(loaded.capture.textProps.map((props) => String(props.children)).join(" "), /MindMesh Pro/);
     assertAccountHelpPalette(loaded.capture, mode, { expectPrimary: false });
 
     accountPresentation({ status: "idle" }, false, { status: "loading", ownerId: ROOM_ID });
@@ -2901,7 +2901,7 @@ test("real account/help routes render both palettes with inert sensitive boundar
     accountPresentation({
       status: "error",
       confirmation: "DELETE",
-      message: "Could not reach the StudyRoom server.",
+      message: "Could not reach the MindMesh server.",
       retryable: true,
       retriedAfterReauthentication: false,
     });
@@ -3030,7 +3030,7 @@ test("real account/help routes render both palettes with inert sensitive boundar
         }),
       ),
     );
-    assert.equal(textByChildren(loaded.capture, "Thank you. StudyRoom will review the concern. Submitting a report does not automatically punish another participant.").accessibilityLiveRegion, "polite");
+    assert.equal(textByChildren(loaded.capture, "Thank you. MindMesh will review the concern. Submitting a report does not automatically punish another participant.").accessibilityLiveRegion, "polite");
     reportController.dispose();
 
     const reportErrorController = new ParticipantReportController({
@@ -3479,14 +3479,14 @@ test("real Quiz route preserves typed states, private reveal, and actions in bot
     };
     const connectionBindings = quizRouteBindings(connectionError);
     const connectionMarkup = renderQuizRoute(loaded, mode, connectionBindings);
-    assert.match(connectionMarkup, /Could not reach the StudyRoom server/);
+    assert.match(connectionMarkup, /Could not reach the MindMesh server/);
     assert.match(connectionMarkup, /Retry connection/);
     assert.ok(
       loaded.capture.textProps.some(
         (props) =>
           props.accessibilityRole === "alert" &&
           typeof props.children === "string" &&
-          props.children.includes("Could not reach the StudyRoom server"),
+          props.children.includes("Could not reach the MindMesh server"),
       ),
     );
     assertQuizPalette(loaded.capture, mode, { expectButton: true });
@@ -4350,11 +4350,11 @@ test("real Results route and review presentation preserve private states in both
     const connectionBindings = resultsRouteBindings(connectionState, reviewResponse);
     const connectionMarkup = renderResultsRoute(loaded, mode, connectionBindings);
     assert.match(connectionMarkup, /Retry connection/);
-    assert.match(connectionMarkup, /Could not reach the StudyRoom server/);
+    assert.match(connectionMarkup, /Could not reach the MindMesh server/);
     assert.ok(
       loaded.capture.textProps.some(
         (props) => props.accessibilityRole === "alert" &&
-          String(props.children).includes("Could not reach the StudyRoom server"),
+          String(props.children).includes("Could not reach the MindMesh server"),
       ),
     );
     assert.ok(

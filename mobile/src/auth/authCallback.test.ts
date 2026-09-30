@@ -42,7 +42,7 @@ class FakeAuthClient implements AuthCallbackClient {
   };
 }
 
-test("native sign-up options use the stable StudyRoom callback", () => {
+test("native sign-up options use the stable MindMesh callback", () => {
   assert.deepEqual(createSignUpOptions("Study Student"), {
     data: { display_name: "Study Student" },
     emailRedirectTo: NATIVE_AUTH_REDIRECT_URL,

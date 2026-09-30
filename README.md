@@ -4,7 +4,7 @@
 
 MindMesh is a development-stage study app built with Expo/React Native and a FastAPI/PostgreSQL backend. This source snapshot is prepared for the Shipaton 2026 **Next Gen Award**. Publishing this repository is not a Devpost submission or a production release. The package contains the selected Expo SDK 57 client, its matching backend, and migrations through `0012_learning_companions`.
 
-The project was developed under the working name **StudyRoom**. Existing UI strings, package names, Preview display name, URL scheme and bundle identifiers still use that name. This documentation introduces the MindMesh submission name without changing tested authentication or native identities. The cartoony-crow icon is the owner's intended identity; final artwork is not included in this source snapshot.
+The project was developed under the working name **StudyRoom**. The app's own visible branding now uses **MindMesh** and **MindMesh Pro**; its Preview display name is **MindMesh Preview**. Technical package names, URL schemes, bundle identifiers and saved-data keys retain the old identity for compatibility. Generic “study room” terminology still describes quiz rooms. Provider-managed paywall/store metadata is separate and has not been renamed or inspected by this source update. The cartoony-crow icon is the owner's intended identity; final artwork is not included in this source snapshot.
 
 See [validation and limitations](VALIDATION.md), [asset rights](ASSET_RIGHTS.md), [dependency notices](THIRD_PARTY_NOTICES.md), and the [prepared Devpost description](DEVPOST_COPY.md).
 

@@ -167,7 +167,7 @@ function isRoomCapacity(value: unknown): value is number {
 
 function malformedResponse(resource: string): MalformedResponseError {
   return new MalformedResponseError(
-    `The StudyRoom server returned an invalid ${resource} response.`,
+    `The MindMesh server returned an invalid ${resource} response.`,
   );
 }
 

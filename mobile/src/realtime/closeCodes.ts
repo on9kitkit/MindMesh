@@ -56,7 +56,7 @@ export function classifyRealtimeClose(
           serverErrorCode === "room_left"
             ? "You left this room."
             : serverErrorCode === "account_suspended"
-              ? "Your StudyRoom account is currently unavailable."
+              ? "Your MindMesh account is currently unavailable."
             : "You are not an active member of this room.",
           serverErrorCode ?? "not_room_member",
           closeCode,
@@ -67,9 +67,9 @@ export function classifyRealtimeClose(
         action: "stop-room",
         error: new RealtimeRoomError(
           serverErrorCode === "profile_required"
-            ? "Complete your StudyRoom profile before using rooms."
+            ? "Complete your MindMesh profile before using rooms."
             : serverErrorCode === "account_suspended"
-              ? "Your StudyRoom account is currently unavailable."
+              ? "Your MindMesh account is currently unavailable."
             : serverErrorCode === "room_closed"
               ? "This room is closed."
               : "This room is no longer available.",

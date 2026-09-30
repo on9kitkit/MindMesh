@@ -91,7 +91,7 @@ const COUNT_FIELDS = [
 
 function malformed(): never {
   throw new MalformedResponseError(
-    "The StudyRoom server returned an invalid learning summary response.",
+    "The MindMesh server returned an invalid learning summary response.",
   );
 }
 

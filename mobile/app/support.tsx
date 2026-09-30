@@ -44,10 +44,10 @@ export function SupportPresentation({
 
   return (
     <StudioScreen>
-      <StudioText variant="eyebrow">STUDYROOM</StudioText>
+      <StudioText variant="eyebrow">MINDMESH</StudioText>
       <StudioText variant="title" style={styles.title}>Support & Safety</StudioText>
       <StudioText tone="muted" style={styles.description}>
-        Get help with StudyRoom or report a safety concern from a current room.
+        Get help with MindMesh or report a safety concern from a current room.
       </StudioText>
 
       <StudioCard style={styles.card}>
@@ -86,8 +86,8 @@ export function SupportPresentation({
           <StudioText variant="heading">Account and subscription help</StudioText>
           <StudioText tone="muted" style={styles.body}>
             {hasAccountAccess
-              ? "Account deletion is available in Account & settings. Deleting StudyRoom does not cancel a store subscription."
-              : "Sign in to access Account & settings and start account deletion. Deleting StudyRoom does not cancel a store subscription."}
+              ? "Account deletion is available in Account & settings. Deleting MindMesh does not cancel a store subscription."
+              : "Sign in to access Account & settings and start account deletion. Deleting MindMesh does not cancel a store subscription."}
           </StudioText>
           {hasAccountAccess ? (
             <StudioButton

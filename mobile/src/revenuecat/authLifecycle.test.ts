@@ -33,7 +33,7 @@ test("suspended auth clears the RevenueCat identity", () => {
   const controller = new FakeAuthenticationController();
   synchronizeRevenueCatAuthentication(controller, {
     status: "suspended",
-    message: "Your StudyRoom account is currently unavailable.",
+    message: "Your MindMesh account is currently unavailable.",
     user: {
       id: "11111111-1111-4111-8111-111111111111",
       email: "student@example.com",

@@ -518,7 +518,7 @@ test("non-JSON backend errors become a safe typed fallback", async () => {
         assert.equal(error.code, "request_failed");
         assert.equal(
           error.message,
-          "The StudyRoom server returned an unexpected error.",
+          "The MindMesh server returned an unexpected error.",
         );
         assert.equal(error.message.includes("upstream"), false);
         return true;

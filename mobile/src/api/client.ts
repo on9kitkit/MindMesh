@@ -85,7 +85,7 @@ function parseJsonText(text: string, responseOk: boolean, status: number): unkno
 
     throw new BackendApiError(
       "request_failed",
-      "The StudyRoom server returned an unexpected error.",
+      "The MindMesh server returned an unexpected error.",
       status,
     );
   }
@@ -103,7 +103,7 @@ function throwBackendError(status: number, payload: unknown): never {
 
   throw new BackendApiError(
     "request_failed",
-    "The StudyRoom server could not complete that request.",
+    "The MindMesh server could not complete that request.",
     status,
   );
 }

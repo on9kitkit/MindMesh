@@ -81,10 +81,10 @@ test("room lifecycle controls and confirmations remain accessible", () => {
   assert.match(waitingRoom, /disabled=\{lifecycleControl\.disabled\}/);
 });
 
-test("StudyRoom Pro entry and purchase controls are accessible", () => {
+test("MindMesh Pro entry and purchase controls are accessible", () => {
   const home = source("app/index.tsx");
   const pro = source("app/pro.tsx");
-  assert.match(home, /label="Explore StudyRoom Pro"/);
+  assert.match(home, /label="Explore MindMesh Pro"/);
   assert.match(pro, /label=.*Open RevenueCat Paywall/);
   assert.match(pro, /label=.*Restore Purchases/);
   assert.match(pro, /Refresh Pro Status/);
@@ -181,10 +181,10 @@ test("Standard and Large room controls expose selection and Pro requirements", (
   assert.match(home, /up to 8 members/);
   assert.match(home, /title="Large Room"/);
   assert.match(home, /up to 20 members/);
-  assert.match(home, /StudyRoom Pro required/);
+  assert.match(home, /MindMesh Pro required/);
   assert.match(
     home,
-    /description=\{isPro \? "StudyRoom Pro · up to 20 members" : "StudyRoom Pro required · up to 20 members"\}/,
+    /description=\{isPro \? "MindMesh Pro · up to 20 members" : "MindMesh Pro required · up to 20 members"\}/,
   );
   assert.match(
     home,

@@ -61,7 +61,7 @@ test("signed-in users without an active room are directed home", () => {
   );
 });
 
-test("signed-in users without a room may stay on StudyRoom Pro", () => {
+test("signed-in users without a room may stay on MindMesh Pro", () => {
   assert.equal(
     recommendSessionRoute({
       ...baseInput,

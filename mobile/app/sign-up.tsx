@@ -26,7 +26,7 @@ export default function SignUpRoute() {
 
   if (state.status === "signed-in") {
     return <StudioScreen>
-      <StudioText variant="eyebrow">STUDYROOM</StudioText>
+      <StudioText variant="eyebrow">MINDMESH</StudioText>
       <StudioText variant="title" style={styles.title}>
         Opening your current session...
       </StudioText>
@@ -36,7 +36,7 @@ export default function SignUpRoute() {
   if (state.status === "confirmation-required") {
     return (
       <StudioScreen>
-        <StudioText variant="eyebrow">STUDYROOM</StudioText>
+        <StudioText variant="eyebrow">MINDMESH</StudioText>
         <StudioText variant="title" style={styles.title}>
           Check your email.
         </StudioText>
@@ -82,7 +82,7 @@ export default function SignUpRoute() {
 
   return (
     <StudioScreen>
-      <StudioText variant="eyebrow">STUDYROOM</StudioText>
+      <StudioText variant="eyebrow">MINDMESH</StudioText>
       <StudioText variant="title" style={styles.title}>
         Create your account.
       </StudioText>

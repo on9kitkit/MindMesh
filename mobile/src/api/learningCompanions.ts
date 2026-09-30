@@ -95,7 +95,7 @@ const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{
 
 function malformed(): never {
   throw new MalformedResponseError(
-    "The StudyRoom server returned an invalid learning companions response.",
+    "The MindMesh server returned an invalid learning companions response.",
   );
 }
 

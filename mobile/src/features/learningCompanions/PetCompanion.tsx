@@ -24,7 +24,7 @@ import {
 } from "./petPresentation";
 
 /**
- * Original StudyRoom artwork, drawn entirely with React Native shapes.
+ * Original MindMesh artwork, drawn entirely with React Native shapes.
  * No subject avatars, image files, downloaded assets, or animation packages are used.
  * The parent supplies a confirmed, permitted animation tier; this component has
  * no knowledge of coins, purchases, ownership, or RevenueCat entitlement.

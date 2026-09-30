@@ -73,7 +73,7 @@ export function ReportPresentation({
         <StudioText variant="title" style={styles.title}>Report received.</StudioText>
         <StudioCard style={styles.card}>
           <StudioText accessibilityLiveRegion="polite" tone="muted" style={styles.body}>
-            Thank you. StudyRoom will review the concern. Submitting a report
+            Thank you. MindMesh will review the concern. Submitting a report
             does not automatically punish another participant.
           </StudioText>
           <StudioButton label="Return to room" onPress={() => router.back()} />

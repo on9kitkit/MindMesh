@@ -779,7 +779,7 @@ def _error_message(error: RoomApplicationError) -> str:
     if isinstance(error, InvalidAuthTokenError):
         return "The authentication token is invalid."
     if isinstance(error, UserProfileRequiredError):
-        return "Complete your StudyRoom profile before using rooms."
+        return "Complete your MindMesh profile before using rooms."
     if isinstance(error, AccountDeletedError):
         return error.message
     if isinstance(error, AccountSuspendedError):
@@ -802,9 +802,9 @@ def _protocol_error_message(code: str) -> str:
         "unsupported_protocol_version": "The protocol version is unsupported.",
         "protocol_error": "The command is invalid.",
         "rate_limited": "Too many commands; try again shortly.",
-        "profile_required": "Complete your StudyRoom profile before using rooms.",
-        "account_deleted": "This StudyRoom account has been deleted.",
-        "account_suspended": "Your StudyRoom account is currently unavailable.",
+        "profile_required": "Complete your MindMesh profile before using rooms.",
+        "account_deleted": "This MindMesh account has been deleted.",
+        "account_suspended": "Your MindMesh account is currently unavailable.",
         "room_not_found": "Room was not found.",
         "room_closed": "This room is closed.",
         "room_left": "You left this room.",

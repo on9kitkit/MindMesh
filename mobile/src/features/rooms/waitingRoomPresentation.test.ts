@@ -437,7 +437,7 @@ test("required realtime failures have concise user-facing messages", () => {
     [new CommandRejectedError("question_not_open", "server detail"), "This question is not open for answers."],
     [new CommandRejectedError("invalid_option", "server detail"), "That answer option is no longer available."],
     [new CommandRejectedError("session_not_active", "server detail"), "The quiz session is no longer active."],
-    [new CommandRejectedError("internal_error", "server detail"), "The StudyRoom server could not complete that request."],
+    [new CommandRejectedError("internal_error", "server detail"), "The MindMesh server could not complete that request."],
   ] as const;
   for (const [error, expected] of cases) {
     assert.equal(getSessionErrorMessage(error), expected);

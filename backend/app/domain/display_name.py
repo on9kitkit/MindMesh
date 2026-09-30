@@ -1,4 +1,4 @@
-"""The single server-authoritative StudyRoom display-name policy."""
+"""The single server-authoritative MindMesh display-name policy."""
 
 from __future__ import annotations
 
@@ -10,13 +10,16 @@ from app.domain.errors import InvalidDisplayNameError
 DISPLAY_NAME_MIN_LENGTH = 1
 DISPLAY_NAME_MAX_LENGTH = 40
 
-# These names are deliberately small and describe StudyRoom service
+# These names are deliberately small and describe MindMesh service
 # identities, not ordinary community vocabulary.
 RESERVED_DISPLAY_NAMES = frozenset(
     {
         "studyroom",
         "studyroom support",
         "studyroom admin",
+        "mindmesh",
+        "mindmesh support",
+        "mindmesh admin",
         "administrator",
         "moderator",
         "support",

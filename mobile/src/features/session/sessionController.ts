@@ -98,7 +98,7 @@ function mapRecoveryError(error: unknown): StudyRoomRealtimeError {
     switch (error.kind) {
       case "configuration":
         return new RealtimeConfigurationError(
-          "StudyRoom server configuration is invalid.",
+          "MindMesh server configuration is invalid.",
         );
       case "authentication":
         return new RealtimeAuthenticationError(
@@ -135,7 +135,7 @@ function mapRecoveryError(error: unknown): StudyRoomRealtimeError {
         );
       case "malformed-response":
         return new MalformedServerMessageError(
-          "The StudyRoom server returned an invalid active-room response.",
+          "The MindMesh server returned an invalid active-room response.",
         );
       case "network":
       case "timeout":
@@ -170,7 +170,7 @@ function mapLifecycleError(error: unknown): StudyRoomRealtimeError {
     switch (error.kind) {
       case "configuration":
         return new RealtimeConfigurationError(
-          "StudyRoom server configuration is invalid.",
+          "MindMesh server configuration is invalid.",
         );
       case "authentication":
         return new RealtimeAuthenticationError(
@@ -179,7 +179,7 @@ function mapLifecycleError(error: unknown): StudyRoomRealtimeError {
         );
       case "malformed-response":
         return new MalformedServerMessageError(
-          "The StudyRoom server returned an invalid room lifecycle response.",
+          "The MindMesh server returned an invalid room lifecycle response.",
         );
       case "backend":
       case "network":

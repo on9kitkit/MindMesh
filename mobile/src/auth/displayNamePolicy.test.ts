@@ -13,7 +13,12 @@ test("display names normalize NFKC and whitespace", () => {
 
 test("display names reject reserved, dangerous, and bounded names", () => {
   for (const value of [
+    "MindMesh",
+    "MINDMESH SUPPORT",
+    "MindMesh Admin",
     "StudyRoom",
+    "StudyRoom Support",
+    "StudyRoom Admin",
     "Official Tutor",
     "official_staff",
     "Student\u200bName",

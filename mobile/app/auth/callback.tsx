@@ -46,7 +46,7 @@ export default function AuthCallbackRoute() {
     const hasValidSession = state.status === "signed-in";
     return (
       <StudioScreen>
-        <StudioText variant="eyebrow">STUDYROOM</StudioText>
+        <StudioText variant="eyebrow">MINDMESH</StudioText>
         <StudioText variant="title" style={styles.title}>
           Confirmation needs attention.
         </StudioText>
@@ -58,7 +58,7 @@ export default function AuthCallbackRoute() {
           {authCallbackError}
         </StudioText>
         <StudioButton
-          label={hasValidSession ? "Continue to StudyRoom" : "Return to sign in"}
+          label={hasValidSession ? "Continue to MindMesh" : "Return to sign in"}
           onPress={() => {
             clearAuthCallbackError();
             router.replace(hasValidSession ? "/" : "/sign-in");
@@ -70,12 +70,12 @@ export default function AuthCallbackRoute() {
 
   return (
     <StudioScreen>
-      <StudioText variant="eyebrow">STUDYROOM</StudioText>
+      <StudioText variant="eyebrow">MINDMESH</StudioText>
       <StudioText accessibilityLiveRegion="polite" variant="title" style={styles.title}>
         Confirming your account...
       </StudioText>
       <StudioText tone="muted" style={styles.description}>
-        Please wait while StudyRoom completes secure sign-in.
+        Please wait while MindMesh completes secure sign-in.
       </StudioText>
     </StudioScreen>
   );

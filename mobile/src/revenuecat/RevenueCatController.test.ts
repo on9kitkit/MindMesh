@@ -86,7 +86,7 @@ function availableOfferings(): RevenueCatOfferings {
           {
             identifier: "$rc_monthly",
             productIdentifier: "studyroom_monthly",
-            title: "StudyRoom Pro Monthly",
+            title: "MindMesh Pro Monthly",
             description: "Monthly access",
             price: "£3.99",
             period: "P1M",
@@ -404,7 +404,7 @@ test("the configured default offering and store metadata load", async () => {
   assert.deepEqual(data.offering?.packages[0], {
     identifier: "$rc_monthly",
     productIdentifier: "studyroom_monthly",
-    title: "StudyRoom Pro Monthly",
+    title: "MindMesh Pro Monthly",
     description: "Monthly access",
     price: "£3.99",
     period: "P1M",
@@ -558,7 +558,7 @@ test("restore with no entitlement remains Free with a neutral result", async () 
   const state = controller.getState();
   assert.equal(state.status, "ready");
   if (state.status === "ready") {
-    assert.match(state.notice?.message ?? "", /No StudyRoom Pro purchase/);
+    assert.match(state.notice?.message ?? "", /No MindMesh Pro purchase/);
   }
 });
 

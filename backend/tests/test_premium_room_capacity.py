@@ -135,7 +135,7 @@ def test_unavailable_verification_fails_closed_only_for_large_room() -> None:
     assert response.json() == {
         "error": {
             "code": "premium_verification_unavailable",
-            "message": "We couldn't verify StudyRoom Pro right now. Try again shortly.",
+            "message": "We couldn't verify MindMesh Pro right now. Try again shortly.",
         }
     }
 

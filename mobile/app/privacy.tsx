@@ -13,10 +13,10 @@ import { spacing } from "../src/theme";
 export default function PrivacyRoute() {
   return (
     <StudioScreen>
-      <StudioText variant="eyebrow">STUDYROOM</StudioText>
+      <StudioText variant="eyebrow">MINDMESH</StudioText>
       <StudioText variant="title" style={styles.title}>Privacy</StudioText>
       <StudioText tone="muted" style={styles.description}>
-        This short notice describes what StudyRoom currently uses to provide
+        This short notice describes what MindMesh currently uses to provide
         rooms, quizzes, solo practice, earned rewards, pets, subscriptions,
         support, and safety reporting.
       </StudioText>
@@ -25,10 +25,10 @@ export default function PrivacyRoute() {
         <StudioStack>
         <StudioText variant="heading">What we use</StudioText>
         <StudioText tone="muted" style={styles.body}>
-          StudyRoom uses your Supabase identity, email, authentication session,
+          MindMesh uses your Supabase identity, email, authentication session,
           display name, room memberships, quiz participation, answers, results,
           timestamps, and necessary service metadata. RevenueCat and the store
-          handle purchase and entitlement records used for StudyRoom Pro. Solo
+          handle purchase and entitlement records used for MindMesh Pro. Solo
           progress, confirmed coin and streak records, and pet ownership and
           equipment are also stored for the new study features.
         </StudioText>
@@ -50,7 +50,7 @@ export default function PrivacyRoute() {
         <StudioStack>
         <StudioText variant="heading">What we do not collect</StudioText>
         <StudioText tone="muted" style={styles.body}>
-          StudyRoom does not currently collect location, contacts, photos,
+          MindMesh does not currently collect location, contacts, photos,
           advertising IDs, direct messages, chat, or public profiles. Room
           participants see display names and the room or quiz state needed for
           multiplayer. Exact answers and feedback stay viewer-private. Your own
@@ -75,7 +75,7 @@ export default function PrivacyRoute() {
             questions, and may include exact repeats. This creates no separate
             saved analytics profile. Existing room-data purge or account
             deletion can remove these source results, so the summary is not a
-            lifetime history. These sampled StudyRoom results are not an AQA
+            lifetime history. These sampled MindMesh results are not an AQA
             grade or full-syllabus assessment.
           </StudioText>
         </StudioStack>
@@ -92,7 +92,7 @@ export default function PrivacyRoute() {
           student&apos;s answer. These requests carry no account, profile,
           room, or provider identifiers. We ask OpenAI not to store them,
           but this is not a guarantee of zero provider retention.
-          Generated content, answers, and results remain stored by StudyRoom
+          Generated content, answers, and results remain stored by MindMesh
           under the deletion and retention notice below.
         </StudioText>
         </StudioStack>
@@ -102,9 +102,9 @@ export default function PrivacyRoute() {
         <StudioStack>
         <StudioText variant="heading">Deletion</StudioText>
         <StudioText tone="muted" style={styles.body}>
-          You can start account deletion from Account & settings. StudyRoom
+          You can start account deletion from Account & settings. MindMesh
           removes or anonymizes local account data under its current deletion
-          contract and schedules linked provider cleanup. Deleting StudyRoom
+          contract and schedules linked provider cleanup. Deleting MindMesh
           does not cancel an App Store or Google Play subscription. Current
           retention periods are not yet automated. Solo
           educational questions, answers, and marks become eligible for

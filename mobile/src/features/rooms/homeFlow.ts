@@ -271,9 +271,9 @@ function getHomeRequestErrorMessage(error: unknown): string {
       case "rate_limited":
         return "Too many requests. Please wait a moment and try again.";
       case "pro_required":
-        return "StudyRoom Pro could not be verified for a Large Room. Open StudyRoom Pro to refresh your status.";
+        return "MindMesh Pro could not be verified for a Large Room. Open MindMesh Pro to refresh your status.";
       case "premium_verification_unavailable":
-        return "We couldn't verify StudyRoom Pro right now. Try again shortly.";
+        return "We couldn't verify MindMesh Pro right now. Try again shortly.";
     }
   }
   return getUserFacingErrorMessage(error);

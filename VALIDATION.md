@@ -2,6 +2,12 @@
 
 ## Evidence attribution
 
+### 30 September visible-branding update
+
+The later owner-authorized branding delta changes app display/copy, backend user-facing messages, subscription display normalization, and service-name reservations/tests only. Dependency locks, migrations and technical auth/native/storage identities remain unchanged. On the actual publication source, using installed dependencies from the validation clone with the byte-identical mobile lockfile, strict TypeScript passed and all 606 default mobile tests passed with zero skips. This is source validation, not a native/device/provider/paywall test. The historical checks below remain attributed to their original snapshots.
+
+The directly affected backend identity/premium tests also passed: 42 passed, one PostgreSQL-dependent test skipped. They used the existing local Python 3.11 environment with database/provider environment variables removed; no database/service/provider was started. The skip is not a pass.
+
 The 30 September publication delta updates owner-confirmed contributor permission and repository authorization in six documentation files only. No application functionality, dependency pins or migrations changed. The earlier candidate manifest remains historical evidence; the publication directory has a regenerated root manifest covering its exact documentation delta.
 
 The installation, test and export results below were executed on the reviewed no-music handoff from which this candidate was copied. Its manifest digest is `aa63dbdf0fcd5557a86cbd719761ae9e157e4ff6cf7bfe01a803c268f00d0b9c`. Preparing the MindMesh public candidate changes documentation, licence notices and `.gitignore`, not application code, dependency pins or migrations. These historical checks are not represented as reruns or as device validation of the final documentation package. The final candidate has its own `SHA256SUMS`.

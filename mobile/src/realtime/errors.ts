@@ -42,7 +42,7 @@ export class RealtimeConfigurationError extends StudyRoomRealtimeError {
 
 export class ProtocolIncompatibilityError extends StudyRoomRealtimeError {
   constructor(
-    message = "The StudyRoom realtime protocol is incompatible with this app.",
+    message = "The MindMesh realtime protocol is incompatible with this app.",
     closeCode?: number,
   ) {
     super(message, "protocol-incompatibility", {
@@ -54,7 +54,7 @@ export class ProtocolIncompatibilityError extends StudyRoomRealtimeError {
 }
 
 export class MalformedServerMessageError extends StudyRoomRealtimeError {
-  constructor(message = "The StudyRoom server sent an invalid realtime message.") {
+  constructor(message = "The MindMesh server sent an invalid realtime message.") {
     super(message, "malformed-server-message", {
       code: "malformed_server_message",
     });
@@ -75,7 +75,7 @@ export class RealtimeAuthenticationError extends StudyRoomRealtimeError {
 
 export class RealtimeRoomError extends StudyRoomRealtimeError {
   constructor(
-    message = "The active StudyRoom room is unavailable.",
+    message = "The active MindMesh room is unavailable.",
     code = "room_unavailable",
     closeCode?: number,
   ) {

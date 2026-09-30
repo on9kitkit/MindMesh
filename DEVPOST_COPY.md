@@ -28,7 +28,7 @@ The starter catalogue covers six GCSE subjects and eighteen topics. It is not a 
 
 MindMesh uses Expo, React Native and strict TypeScript for the client; FastAPI and PostgreSQL for application state; and Supabase Auth for sign-in. Server-side adapters handle adaptive generation and eligible written marking. Provider secrets stay on the backend. The current source targets Expo SDK 57 and includes database migrations through `0012_learning_companions`.
 
-The project began under the working name StudyRoom, which remains in source identifiers and some development UI. MindMesh is the submission name. This repository candidate excludes the earlier music assets and playback controls.
+The project began under the working name StudyRoom, which remains in technical identifiers for compatibility. The app's own visible branding is now MindMesh and MindMesh Pro. This repository excludes the earlier music assets and playback controls; provider-managed paywall/store metadata is outside this source-only branding update.
 
 ## RevenueCat integration
 

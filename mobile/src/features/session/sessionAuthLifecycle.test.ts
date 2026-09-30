@@ -63,7 +63,7 @@ test("room recovery waits for authenticated profile bootstrap", () => {
     { status: "syncing" },
     {
       status: "recoverable-error",
-      message: "Could not reach the StudyRoom server.",
+      message: "Could not reach the MindMesh server.",
     },
   ] as const) {
     synchronizeSessionAuthentication(
@@ -91,7 +91,7 @@ test("signed-out and terminal unauthenticated states clear session state", () =>
     { status: "confirmation-required", email: "student@example.com" },
     {
       status: "suspended",
-      message: "Your StudyRoom account is currently unavailable.",
+      message: "Your MindMesh account is currently unavailable.",
       user: {
         id: "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
         email: "student@example.com",

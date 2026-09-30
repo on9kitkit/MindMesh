@@ -41,9 +41,9 @@ function callbackErrorMessage(error: string, errorCode: string | null): string {
     normalizedError.includes("fetch") ||
     normalizedError.includes("timeout")
   ) {
-    return "StudyRoom could not reach Supabase to complete confirmation. Check your connection and try again.";
+    return "MindMesh could not reach Supabase to complete confirmation. Check your connection and try again.";
   }
-  return "StudyRoom could not complete this confirmation link. Request a new confirmation email and try again.";
+  return "MindMesh could not complete this confirmation link. Request a new confirmation email and try again.";
 }
 
 export function getAuthCallbackErrorMessage(error: unknown): string {
@@ -147,7 +147,7 @@ export class AuthCallbackHandler {
       if (!data.session) {
         return {
           status: "failed",
-          message: "StudyRoom did not receive a session from this confirmation link. Request a new confirmation email and try again.",
+          message: "MindMesh did not receive a session from this confirmation link. Request a new confirmation email and try again.",
         };
       }
       this.handledCallbackKeys.add(callbackKey);

@@ -98,7 +98,7 @@ const MARK_PROVENANCE: readonly string[] = [
 ];
 
 function malformed(): never {
-  throw new MalformedResponseError("The StudyRoom server returned an invalid solo quiz response.");
+  throw new MalformedResponseError("The MindMesh server returned an invalid solo quiz response.");
 }
 
 function object(value: unknown, keys: readonly string[]): Record<string, unknown> {

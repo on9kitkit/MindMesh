@@ -19,7 +19,7 @@ test("canonical source contains the approved factual publication contract", () =
 
   for (const statement of [
     "studyroom.support@proton.me",
-    "StudyRoom project owner",
+    "MindMesh project owner",
     "within 3 working days",
     "Public HTTPS publication is pending",
     "Account &amp; settings",

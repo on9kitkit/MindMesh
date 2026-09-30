@@ -104,7 +104,7 @@ async function completeRoomLifecycle(
   });
   if (response !== undefined) {
     throw new MalformedResponseError(
-      "The StudyRoom server returned an invalid room lifecycle response.",
+      "The MindMesh server returned an invalid room lifecycle response.",
     );
   }
 }

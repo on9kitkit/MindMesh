@@ -32,10 +32,10 @@ export function LearningSummaryCard({ state, onRetry }: LearningSummaryCardProps
       <StudioStack>
         <StudioText variant="heading">Your retained practice history</StudioText>
         <StudioText tone="muted">
-          Your own finished adaptive GCSE practice that StudyRoom still retains,
+          Your own finished adaptive GCSE practice that MindMesh still retains,
           including previous rooms you left or that closed. Existing data purge
           or account deletion can remove it; this is not a lifetime record.
-          These StudyRoom questions are not an AQA grade or full-syllabus measure.
+          These MindMesh questions are not an AQA grade or full-syllabus measure.
         </StudioText>
 
         {state.status === "loading" ? (

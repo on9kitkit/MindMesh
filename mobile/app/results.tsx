@@ -243,7 +243,7 @@ export default function ResultsRoute() {
         Quiz complete
       </StudioText>
       <StudioText tone="muted" style={styles.description}>
-        Final scores are confirmed by the StudyRoom server.
+        Final scores are confirmed by the MindMesh server.
       </StudioText>
       <StudioText accessibilityLiveRegion="polite" tone="primary" style={styles.connection}>
         {sessionState.phase === "reconnecting"

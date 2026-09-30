@@ -70,18 +70,18 @@ export function AccountPresentation({
 
   return (
     <StudioScreen>
-      <StudioText variant="eyebrow">STUDYROOM</StudioText>
+      <StudioText variant="eyebrow">MINDMESH</StudioText>
       <StudioText variant="title" style={styles.title}>
         Account & settings
       </StudioText>
       <StudioText tone="muted" style={styles.description}>
-        Manage your StudyRoom account and its local data.
+        Manage your MindMesh account and its local data.
       </StudioText>
 
       <StudioCard style={styles.card}>
         <StudioText variant="heading">Your profile</StudioText>
         <StudioText style={styles.profileName}>
-          {authState.user.displayName ?? "StudyRoom member"}
+          {authState.user.displayName ?? "MindMesh member"}
         </StudioText>
       </StudioCard>
 
@@ -97,14 +97,14 @@ export function AccountPresentation({
           <StudioStack>
             <StudioText variant="heading">Delete account</StudioText>
             <StudioText tone="muted" style={styles.cardDescription}>
-              This removes your local StudyRoom profile, room memberships,
+              This removes your local MindMesh profile, room memberships,
               participant records, answers, solo practice content, earned coin
               records, and pet ownership. Anonymized shared quiz history may
               remain. Linked service records are scheduled for cleanup.
             </StudioText>
             {isPro ? (
               <StudioText tone="muted" style={styles.notice}>
-                You currently have StudyRoom Pro. Deleting your account does not
+                You currently have MindMesh Pro. Deleting your account does not
                 cancel the store subscription; cancel it separately through your
                 store account.
               </StudioText>
@@ -215,7 +215,7 @@ export function AccountPresentation({
             Deleting your account...
           </StudioText>
           <StudioText tone="muted" style={styles.cardDescription}>
-            Please wait while StudyRoom completes the local deletion.
+            Please wait while MindMesh completes the local deletion.
           </StudioText>
         </StudioCard>
       ) : null}
@@ -232,7 +232,7 @@ export function AccountPresentation({
         <StudioStack>
           <StudioText variant="heading">Privacy and support</StudioText>
           <StudioText tone="muted" style={styles.cardDescription}>
-            Read how StudyRoom handles data or get help with an account or safety
+            Read how MindMesh handles data or get help with an account or safety
             concern.
           </StudioText>
           <StudioButton
@@ -323,7 +323,7 @@ export default function AccountRoute() {
   if (auth.state.status !== "signed-in" && auth.state.status !== "suspended") {
     return (
       <StudioScreen>
-        <StudioText variant="eyebrow">STUDYROOM</StudioText>
+        <StudioText variant="eyebrow">MINDMESH</StudioText>
         <StudioText variant="title" style={styles.title}>
           Returning to sign in...
         </StudioText>

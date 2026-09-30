@@ -400,7 +400,7 @@ export function PetsScreen({
 }: PetsScreenProps) {
   return (
     <StudioScreen>
-      <StudioText variant="eyebrow">STUDYROOM</StudioText>
+      <StudioText variant="eyebrow">MINDMESH</StudioText>
       <StudioText variant="title" style={styles.title}>Your companions</StudioText>
       {waitingMessage !== null ? (
         <StudioText tone="muted" style={styles.description}>{waitingMessage}</StudioText>

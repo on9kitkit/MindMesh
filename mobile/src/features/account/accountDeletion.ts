@@ -74,9 +74,9 @@ function deletionFailureMessage(
 
 function completionMessage(providerCleanupPending: boolean): string {
   if (providerCleanupPending) {
-    return "Your StudyRoom account has been deleted. If you have StudyRoom Pro, cancel the store subscription separately; some linked records may finish clearing shortly.";
+    return "Your MindMesh account has been deleted. If you have MindMesh Pro, cancel the store subscription separately; some linked records may finish clearing shortly.";
   }
-  return "Your StudyRoom account has been deleted. If you have StudyRoom Pro, cancel the store subscription separately.";
+  return "Your MindMesh account has been deleted. If you have MindMesh Pro, cancel the store subscription separately.";
 }
 
 export class AccountDeletionController {

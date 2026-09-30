@@ -141,7 +141,7 @@ export function SessionRouteCoordinator() {
       sessionState.lastError?.code === "account_deleted"
     ) {
       void completeAccountDeletion(
-        "Your StudyRoom account has been deleted. Please sign in again.",
+        "Your MindMesh account has been deleted. Please sign in again.",
       );
     }
   }, [
@@ -156,7 +156,7 @@ export function SessionRouteCoordinator() {
       sessionState.lastError?.code === "account_suspended"
     ) {
       completeAccountSuspension(
-        "Your StudyRoom account is currently unavailable. Open Support & Safety for help.",
+        "Your MindMesh account is currently unavailable. Open Support & Safety for help.",
       );
     }
   }, [

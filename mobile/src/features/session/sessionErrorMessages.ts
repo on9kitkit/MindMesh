@@ -41,15 +41,15 @@ function commandErrorMessage(code: string | undefined): string {
     case "room_owner_must_close":
       return "The room host must close the room instead of leaving it.";
     case "account_deleted":
-      return "Your StudyRoom account has been deleted. Please sign in again.";
+      return "Your MindMesh account has been deleted. Please sign in again.";
     case "account_suspended":
-      return "Your StudyRoom account is currently unavailable. Open Support & Safety for help.";
+      return "Your MindMesh account is currently unavailable. Open Support & Safety for help.";
     case "rate_limited":
       return "Too many requests. Please wait a moment and try again.";
     case "connection_limit_reached":
       return "The realtime connection limit has been reached.";
     case "internal_error":
-      return "The StudyRoom server could not complete that request.";
+      return "The MindMesh server could not complete that request.";
     default:
       return "The room update was rejected. Please try again.";
   }
@@ -78,17 +78,17 @@ export function getSessionErrorMessage(
     case "connection-limit":
       return "The realtime connection limit has been reached.";
     case "network":
-      return "Could not reach the StudyRoom server.";
+      return "Could not reach the MindMesh server.";
     case "reconnect-exhausted":
       return "The room connection could not be restored automatically.";
     case "command-rejected":
       return commandErrorMessage(error.code);
     case "configuration":
-      return "StudyRoom server configuration is invalid.";
+      return "MindMesh server configuration is invalid.";
     case "protocol-incompatibility":
       return "This app is not compatible with the server's realtime protocol.";
     case "malformed-server-message":
-      return "The StudyRoom server returned an invalid realtime update.";
+      return "The MindMesh server returned an invalid realtime update.";
     case "command-unavailable":
       return "That room action is not available right now.";
   }

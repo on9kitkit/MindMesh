@@ -240,7 +240,7 @@ export class RoomRealtimeClient {
     if (typeof data !== "string") {
       this.failProtocol(
         new MalformedServerMessageError(
-          "The StudyRoom server sent a non-text realtime message.",
+          "The MindMesh server sent a non-text realtime message.",
         ),
       );
       return;
@@ -270,7 +270,7 @@ export class RoomRealtimeClient {
       if (this.connectedEventReceived) {
         this.failProtocol(
           new MalformedServerMessageError(
-            "The StudyRoom server sent a duplicate connection event.",
+            "The MindMesh server sent a duplicate connection event.",
           ),
         );
         return;
@@ -283,7 +283,7 @@ export class RoomRealtimeClient {
     if (!this.connectedEventReceived) {
       this.failProtocol(
         new MalformedServerMessageError(
-          "The StudyRoom server sent state before authentication completed.",
+          "The MindMesh server sent state before authentication completed.",
         ),
       );
       return;

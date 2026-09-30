@@ -53,6 +53,6 @@ test("a genuine summary 401 surfaces existing relogin guidance without raw backe
   );
   assert.equal(
     learningSummaryFailureMessage(new NetworkApiError()),
-    "Could not reach the StudyRoom server.",
+    "Could not reach the MindMesh server.",
   );
 });

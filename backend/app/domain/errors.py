@@ -15,21 +15,21 @@ class InvalidAuthTokenError(RoomApplicationError):
 
 
 class UserProfileRequiredError(RoomApplicationError):
-    """Raised when an authenticated identity has no StudyRoom profile."""
+    """Raised when an authenticated identity has no MindMesh profile."""
 
 
 class AccountDeletedError(RoomApplicationError):
     """Raised when a verified identity belongs to a deleted local account."""
 
     code = "account_deleted"
-    message = "This StudyRoom account has been deleted."
+    message = "This MindMesh account has been deleted."
 
 
 class AccountSuspendedError(RoomApplicationError):
     """Raised when a verified identity is temporarily restricted."""
 
     code = "account_suspended"
-    message = "Your StudyRoom account is currently unavailable."
+    message = "Your MindMesh account is currently unavailable."
 
 
 class InvalidDisplayNameError(RoomApplicationError):
@@ -43,7 +43,7 @@ class RecentAuthenticationRequiredError(RoomApplicationError):
     """Raised when a destructive action lacks recent-authentication proof."""
 
     code = "recent_authentication_required"
-    message = "Sign in again before deleting your StudyRoom account."
+    message = "Sign in again before deleting your MindMesh account."
 
 
 class AccountDeletionBlockedActiveQuizError(RoomApplicationError):
@@ -75,7 +75,7 @@ class SafetyReportUnavailableError(RoomApplicationError):
 
 
 class UserNotFoundError(RoomApplicationError):
-    """Raised when a referenced StudyRoom user does not exist."""
+    """Raised when a referenced MindMesh user does not exist."""
 
 
 class RoomOwnerRequiredError(RoomApplicationError):
@@ -107,14 +107,14 @@ class ProRequiredError(RoomApplicationError):
     """Raised when a server-owned operation requires active Pro access."""
 
     code = "pro_required"
-    message = "StudyRoom Pro is required for rooms larger than 8 members."
+    message = "MindMesh Pro is required for rooms larger than 8 members."
 
 
 class PremiumVerificationUnavailableError(RoomApplicationError):
     """Raised when premium access cannot be verified safely."""
 
     code = "premium_verification_unavailable"
-    message = "We couldn't verify StudyRoom Pro right now. Try again shortly."
+    message = "We couldn't verify MindMesh Pro right now. Try again shortly."
 
 
 class InvalidRoomDataError(RoomApplicationError):

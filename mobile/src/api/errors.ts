@@ -43,7 +43,7 @@ export class AuthenticationApiError extends StudyRoomApiError {
 
 export class NetworkApiError extends StudyRoomApiError {
   constructor() {
-    super("Could not reach the StudyRoom server.", "network");
+    super("Could not reach the MindMesh server.", "network");
     this.name = "NetworkApiError";
   }
 }
@@ -63,7 +63,7 @@ export class BackendApiError extends StudyRoomApiError {
 }
 
 export class MalformedResponseError extends StudyRoomApiError {
-  constructor(message = "The StudyRoom server returned an invalid response.") {
+  constructor(message = "The MindMesh server returned an invalid response.") {
     super(message, "malformed-response");
     this.name = "MalformedResponseError";
   }
@@ -124,9 +124,9 @@ export function getUserFacingErrorMessage(error: unknown): string {
       case "invalid_auth_token":
         return "Your session has expired. Please sign in again.";
       case "account_deleted":
-        return "Your StudyRoom account has been deleted. Please sign in again.";
+        return "Your MindMesh account has been deleted. Please sign in again.";
       case "account_suspended":
-        return "Your StudyRoom account is currently unavailable. Open Support & Safety for help.";
+        return "Your MindMesh account is currently unavailable. Open Support & Safety for help.";
       case "invalid_display_name":
         return "Choose a different display name.";
       case "room_join_unavailable":
@@ -154,16 +154,16 @@ export function getUserFacingErrorMessage(error: unknown): string {
       case "question_not_open":
         return "This question is not open for answers.";
       default:
-        return "The StudyRoom server could not complete that request.";
+        return "The MindMesh server could not complete that request.";
     }
   }
 
   if (error instanceof AuthenticationApiError) {
-    return "Please sign in before using StudyRoom rooms.";
+    return "Please sign in before using MindMesh rooms.";
   }
 
   if (error instanceof NetworkApiError) {
-    return "Could not reach the StudyRoom server.";
+    return "Could not reach the MindMesh server.";
   }
 
   if (error instanceof TimeoutApiError) {
@@ -171,11 +171,11 @@ export function getUserFacingErrorMessage(error: unknown): string {
   }
 
   if (error instanceof MalformedResponseError) {
-    return "The StudyRoom server returned an invalid response.";
+    return "The MindMesh server returned an invalid response.";
   }
 
   if (error instanceof ApiConfigurationError) {
-    return "StudyRoom server configuration is invalid.";
+    return "MindMesh server configuration is invalid.";
   }
 
   return "Something went wrong. Please try again.";

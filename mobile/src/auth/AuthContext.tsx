@@ -273,13 +273,13 @@ export function AuthProvider({ children }: PropsWithChildren) {
       .catch((error: unknown) => {
         if (getApiErrorCode(error) === "account_deleted") {
           void completeAccountDeletion(
-            "Your StudyRoom account has been deleted. Please sign in again.",
+            "Your MindMesh account has been deleted. Please sign in again.",
           );
           return;
         }
         if (getApiErrorCode(error) === "account_suspended") {
           completeAccountSuspension(
-            "Your StudyRoom account is currently unavailable. Open Support & Safety for help.",
+            "Your MindMesh account is currently unavailable. Open Support & Safety for help.",
           );
           return;
         }

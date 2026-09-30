@@ -1,5 +1,14 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { mindMeshProductCopy } from "./brandCopy";
+
+test("legacy subscription display copy uses MindMesh without changing identifiers", () => {
+  assert.equal(mindMeshProductCopy("StudyRoom Pro"), "MindMesh Pro");
+  assert.equal(mindMeshProductCopy("STUDYROOM PRO"), "MINDMESH PRO");
+  assert.equal(mindMeshProductCopy("studyroom pro monthly"), "MindMesh pro monthly");
+  assert.equal(mindMeshProductCopy("studyroom_monthly"), "studyroom_monthly");
+  assert.equal(mindMeshProductCopy("Your study room"), "Your study room");
+});
 
 import {
   resolveRevenueCatConfiguration,

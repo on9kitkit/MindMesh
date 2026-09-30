@@ -82,7 +82,7 @@ export default function ProRoute() {
   if (authState.status !== "signed-in") {
     return (
       <StudioScreen>
-        <StudioText variant="eyebrow">STUDYROOM PRO</StudioText>
+        <StudioText variant="eyebrow">MINDMESH PRO</StudioText>
         <StudioText variant="title" style={styles.title}>Returning to sign in...</StudioText>
       </StudioScreen>
     );
@@ -108,10 +108,10 @@ export default function ProRoute() {
 
   return (
     <StudioScreen>
-      <StudioText variant="eyebrow">STUDYROOM PRO</StudioText>
-      <StudioText variant="title" style={styles.title}>StudyRoom Pro</StudioText>
+      <StudioText variant="eyebrow">MINDMESH PRO</StudioText>
+      <StudioText variant="title" style={styles.title}>MindMesh Pro</StudioText>
       <StudioText tone="muted" style={styles.description}>
-        Advanced StudyRoom Pro features are being introduced progressively.
+        Advanced MindMesh Pro features are being introduced progressively.
       </StudioText>
 
       <StudioCard style={styles.card}>
@@ -175,7 +175,7 @@ export default function ProRoute() {
       ) : data?.offeringStatus === "missing" ? (
         <StudioCard style={styles.card}>
           <StudioText tone="muted" style={styles.platformMessage}>
-            The configured StudyRoom Pro offering is unavailable.
+            The configured MindMesh Pro offering is unavailable.
           </StudioText>
         </StudioCard>
       ) : null}
