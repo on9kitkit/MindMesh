@@ -1,8 +1,16 @@
-# MindMesh public-source checkpoint — 29 September 2026
+# MindMesh development checkpoint
+
+## 2 October 2026 — ongoing app development
+
+Owner reports submission complete. Contest-only Devpost copy and publication checklist are retired from the current tree, with recoverable private copies and Git history retained. Development priorities are now product reliability, learner value, privacy and safety, not contest compliance. No app source, dependencies, migrations, data, services or native outputs changed in this task.
+
+Owner separately confirmed rights-holder authority for the prospective All rights reserved policy in [LICENSE](../LICENSE). [Licensing history](LICENSING_HISTORY.md) preserves the earlier MIT notice and last MIT release commit; prior grants and third-party terms remain unaffected. Repository visibility remains public. Documentation diffs and checksum manifests are validated; historical application test results below were not rerun for this docs-only change.
+
+## Historical source and validation baseline
 
 This directory is a sanitized, no-music source candidate, not a production release. Visible app branding is MindMesh / MindMesh Pro; technical StudyRoom auth/native/storage identities are intentionally retained. The crow icon and final video are not included.
 
-Application source inherits the reviewed source handoff plus the 30 September visible-branding update. Lockfiles and migrations are unchanged. See [validation](../VALIDATION.md) for attributed checks and native/runtime limits, [asset rights](../ASSET_RIGHTS.md), and [publication actions](../PUBLICATION_CHECKLIST.md).
+Application source inherits the reviewed source handoff plus the 30 September visible-branding update. Lockfiles and migrations are unchanged. See [validation](../VALIDATION.md) for attributed checks and native/runtime limits, and [asset rights](../ASSET_RIGHTS.md).
 
 ## 30 September: visible-branding update
 

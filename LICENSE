@@ -1,16 +1,23 @@
-MIT License
+MindMesh first-party licensing policy — effective 2 October 2026
 
 Copyright (c) 2026 StudyRoom Contributors
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+All rights reserved.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+For newly contributed first-party material not already covered by a prior
+licence grant, no permission to use, copy, modify, distribute, sublicense or
+sell is granted without written permission from the relevant rights-holder,
+except as required by applicable law or the hosting service's terms.
+
+This policy does not withdraw or restrict permissions previously granted
+under MIT. Material published through commit
+7609f2a97ac05eb362eed72a6dcdeae151a40e71 remains available under that MIT
+grant, including when the same material is carried forward in this tree.
+The historical notice and full terms are in docs/LICENSING_HISTORY.md.
+
+Third-party material remains governed by its respective licences, not this
+policy. Preserve its copyright and permission notices. See
+THIRD_PARTY_NOTICES.md and third-party/ for the recorded evidence and limits.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

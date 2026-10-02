@@ -2,11 +2,11 @@
 
 **GCSE practice together or independently, with private answer feedback and space to work things out.**
 
-MindMesh is a development-stage study app built with Expo/React Native and a FastAPI/PostgreSQL backend. This source snapshot is prepared for the Shipaton 2026 **Next Gen Award**. Publishing this repository is not a Devpost submission or a production release. The package contains the selected Expo SDK 57 client, its matching backend, and migrations through `0012_learning_companions`.
+MindMesh is an ongoing, development-stage study app built with Expo/React Native and a FastAPI/PostgreSQL backend. Submission preparation is complete; development now follows learner needs, safety and product quality rather than contest requirements. This repository is not a production release. It contains the selected Expo SDK 57 client, its matching backend, and migrations through `0012_learning_companions`.
 
 The project was developed under the working name **StudyRoom**. The app's own visible branding now uses **MindMesh** and **MindMesh Pro**; its Preview display name is **MindMesh Preview**. Technical package names, URL schemes, bundle identifiers and saved-data keys retain the old identity for compatibility. Generic “study room” terminology still describes quiz rooms. Provider-managed paywall/store metadata is separate and has not been renamed or inspected by this source update. The cartoony-crow icon is the owner's intended identity; final artwork is not included in this source snapshot.
 
-See [validation and limitations](VALIDATION.md), [asset rights](ASSET_RIGHTS.md), [dependency notices](THIRD_PARTY_NOTICES.md), and the [prepared Devpost description](DEVPOST_COPY.md).
+See [validation and limitations](VALIDATION.md), [asset rights](ASSET_RIGHTS.md), [dependency notices](THIRD_PARTY_NOTICES.md), and [licensing history](docs/LICENSING_HISTORY.md).
 
 The package-only variant has **no music**. Four externally sourced MP3s lacked verified redistribution rights, so they were not copied. The route-mounted playback UI, static asset imports, audio plugin and unused audio dependency were removed from this copy. The original Preview source and audio remain unchanged. Do not describe this candidate as having playable theme music.
 
@@ -50,5 +50,5 @@ The `mobile/.env.example` describes **public Expo client** `EXPO_PUBLIC_*` value
 - The old `ios/` project was intentionally excluded: its saved Pods were from Expo 53/React Native 0.79.6 while this source declares Expo 57/React Native 0.86.3. Native regeneration, signing, installation and device behavior have not been validated for this source.
 - Offline export proves the JavaScript/assets bundle resolves, not that sign-in, rooms, AI, pets, native drawing, purchasing, or account deletion works on a device.
 - The selected Preview source was copied without its Git history; the backend came from the accepted StudyRoom UI worktree after static API/protocol/revision checks. There was no end-to-end test of this precise combined snapshot.
-- Project source retains its existing [MIT licence](LICENSE), including the original `StudyRoom Contributors` copyright line. Renaming the project does not replace that attribution. Dependency licences are documented separately in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md); they are not relicensed by the project MIT file.
-- The [publication checklist](PUBLICATION_CHECKLIST.md) records owner publication authorization and remaining media, dependency-evidence and submission actions. The repository starts from this sanitized snapshot without importing private development history. No Devpost submission is performed by publishing the code.
+- The current [first-party policy](LICENSE) is **All rights reserved** for new material not already licensed, effective 2 October 2026. Earlier MIT grants remain valid, including for unchanged material carried forward. See [licensing history](docs/LICENSING_HISTORY.md). Third-party licences and notices are unchanged.
+- This public repository retains its sanitized source history without importing private development records. Contest-only copy and checklists have been retired; technical validation and rights limitations remain applicable.

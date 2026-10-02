@@ -1,4 +1,11 @@
-# Public-candidate changelog
+# MindMesh changelog
+
+## 2 October 2026
+
+- Retired contest-only copy and checklist; reoriented the README toward ongoing app development without erasing historical technical validation.
+- Applied owner-confirmed prospective All rights reserved policy, preserving contributor attribution, earlier MIT grants and unchanged third-party terms.
+- Preserved the original MIT text and last MIT release commit in licensing history; refreshed the source checksum manifest.
+- Documentation-only change: no application, dependency, migration, service, provider, device or data changes.
 
 ## 30 September 2026
 
